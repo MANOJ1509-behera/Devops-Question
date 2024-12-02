@@ -36,7 +36,7 @@ Container
 👉 Relies on the underlying OS to provide containerisation features such as Namespaces, CGroups, etc.
 👉 Example providers: Docker, CRI-O, Rkt
 ```
-!(https://media.licdn.com/dms/image/v2/D4E22AQGGtx7y7wPC1A/feedshare-shrink_800/feedshare-shrink_800/0/1730185090980?e=1735776000&v=beta&t=-vP6rI4RH9wpcGN_uzSljWbrXt6DRSjrknVO6Ta8cvA)
+
 
 ## 3 .Docker: Difference between an Image REGISTRY and an Image REPOSITORY
 ```
@@ -94,5 +94,5 @@ By default, Docker uses DockerHub as registry. Other examples are AWS ECR, JFrog
 Allow you to extend Docker’s functionality. Currently, you can develop/use plugins for authorization, volumes & network.
 
 ```
-!(https://media.licdn.com/dms/image/v2/D4E22AQFfYOGj6mOT5Q/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1730185005689?e=1735776000&v=beta&t=wR41yafqweUcdcW7O__vmddMsSotLsTrRiak6GWZeC4)
+
 ‌
