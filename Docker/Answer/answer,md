@@ -1,0 +1,98 @@
+## 1. What are "scratch" images in Docker?
+```
+Scratch images are empty Docker images that you create by writing "FROM scratch" in your Dockerfile (instead of using some other base image).
+
+This creates an absolutely empty docker image.
+
+No underlying operating system, no dependencies, no pre-existing data or applications.
+Think of it like an empty storage disk. You have to populate it with data and applications.
+
+Because there’s nothing in it, a scratch image, by itself, is very small in size.
+
+So whatever you put on it is what contributes to the size of the image.
+
+Scratch images are one of the most powerful, but also challenging, ways to reduce the size of your Docker images.
+```
+
+##2.What’s the difference between Containers & Virtual Machines?
+```
+Both these technologies provide Process Isolation and Resource Sharing.
+
+But as a DevOps engineer, you need to know when to use which and the consequences of your choice.
+
+Here are the key differences:
+
+
+Virtual Machine
+👉 Virtualizes the entire host machine down to the hardware level.
+👉 Much bigger in size compared to containers. Consumes more resources like CPU, Memory to operate and takes longer to start.
+👉 Runs directly on the host machine, doesn’t need support of any OS.
+👉 Example providers: VMWare Workstation, QEMU
+
+
+Container
+👉 Only virtualises above the Operating System.
+👉 Much smaller in size compared to VM, consumes lesser resources and starts quickly.
+👉 Relies on the underlying OS to provide containerisation features such as Namespaces, CGroups, etc.
+👉 Example providers: Docker, CRI-O, Rkt
+```
+!(https://media.licdn.com/dms/image/v2/D4E22AQGGtx7y7wPC1A/feedshare-shrink_800/feedshare-shrink_800/0/1730185090980?e=1735776000&v=beta&t=-vP6rI4RH9wpcGN_uzSljWbrXt6DRSjrknVO6Ta8cvA)
+
+## 3 .Docker: Difference between an Image REGISTRY and an Image REPOSITORY
+```
+A Registry is a platform that stores docker images (eg- dockerhub, AWS ECR).
+
+Inside the registry, there can be 1 or more Repositories.
+1 Repository stores multiple versions (tags) of one image.
+
+So dockerhub.com/golang is a single repository.
+It contains golang:latest, golang:1.23, golang:1.23-alpine, etc.
+
+But both dockerhub.com/python and dockerhub.com/golang are 2 repositories inside the registry dockerhub.com.
+
+```   
+## 4. Docker: Key Components explained
+
+‌```
+Understanding Docker can be a bit hard in the beginning, but mastering this tool is of great importance in today’s microservice-driven landscape.
+Containers solve the “It works on my Machine” problem and Docker is the most important player in the space 🚀 
+‌
+
+Here’s a description of the key components of Docker and their purpose.
+‌
+👉 Client
+The application we use to interact with Docker. There are mainly 2 clients - Docker CLI and Docker Desktop GUI. Honestly, if you master the CLI, I don’t see the need for any other docker client.
+‌
+👉 Daemon
+The backend server which does all the heavy-lifting. It receives requests from clients and creates, runs & manages all Docker objects (including containers).
+‌
+👉 Host
+The machine that runs the Docker Daemon. This machine essentially provides all resources to run containers.
+This could be your laptop or a powerful server in the cloud.
+‌
+👉 Container
+Runs your application in an isolated environment. The whole reason Docker exists.
+A container is an instance of a Docker image.
+‌
+👉 Image
+A blueprint for containers. A filesystem that contains all assets for your application to run successfully, all instructions on how to build and run your app.
+‌
+👉 Dockerfile
+The code file in which you write the Image definition. You supply this file to Docker to create an image out of it.
+‌
+👉 Network
+Provides connectivity between Docker containers so they can communicate with each-other. There are several types of Networks, the default one is “bridge”.
+‌
+👉 Volume
+Provides storage for containers. This ensures that any valuable data generated inside your containers is persisted beyond the lifecycle of the container itself.
+‌
+👉 Registry
+A place to store & distribute Docker images. You can create public or private repositories. Think of it like Git, but for container images.
+By default, Docker uses DockerHub as registry. Other examples are AWS ECR, JFrog.
+‌
+👉 Plugins
+Allow you to extend Docker’s functionality. Currently, you can develop/use plugins for authorization, volumes & network.
+
+```
+!(https://media.licdn.com/dms/image/v2/D4E22AQFfYOGj6mOT5Q/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1730185005689?e=1735776000&v=beta&t=wR41yafqweUcdcW7O__vmddMsSotLsTrRiak6GWZeC4)
+‌
