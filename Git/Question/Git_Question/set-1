@@ -1,0 +1,19 @@
+1. Can you explain the Git branching model and how you would choose a branching strategy for a large project?
+
+2. What happens when you merge two branches that have conflicting changes? How would you handle merge conflicts in a real project?
+
+3. How do you use git rebase to ensure that your feature branch is up-to-date with the latest changes from the main branch?
+
+4. Explain the difference between git pull and git fetch. When would you use one over the other in a multi-developer environment?
+
+5. Imagine a scenario where you accidentally commit sensitive information, such as passwords or API keys, into a public repository. How would you fix that issue, and what steps would you take to prevent this in the future?
+
+6. How do you manage large repositories with multiple teams working on different parts of the codebase, and how do you prevent conflicts between them?
+
+7. What are Git submodules, and how would you use them to manage dependencies between multiple repositories in a large project?
+
+8. If you need to squash multiple commits into one before merging a pull request, how would you do that? And why might you want to do this in a DevOps workflow?
+
+9. What is the difference between git stash and git commit --amend? When would you use one over the other?
+
+10. How would you set up Git to automatically trigger a build in a CI/CD pipeline every time a new commit is pushed to the repository?
