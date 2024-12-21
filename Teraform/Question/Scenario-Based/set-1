@@ -1,0 +1,11 @@
+1. How to handle a requirement to deploy the same infrastructure across multiple AWS regions using Terraform?
+
+2.Your team wants to enforce compliance policies for resources deployed with Terraform (eg. tagging). How would you achieve this?
+
+3. During a terraform apply, a resource failed to provision, but others succeeded. How would you roll back changes while maintaining consistency?
+
+4. You’re tasked with deploying resources for a temporary project using Terraform. How would you ensure easy cleanup after the project ends?
+
+5. How would you prevent collaborators to accidentally overwriting each other’s changes. What strategies would you implement here?
+
+6. A client requests a Terraform setup where they can provision only specific subsets of resources on demand. How would you design such a solution?
