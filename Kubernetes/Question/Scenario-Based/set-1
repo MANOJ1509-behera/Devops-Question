@@ -1,0 +1,18 @@
+```
+1. A pod is unable to get scheduled despite sufficient resources available in the cluster.What steps would you take to diagnose why the pod isn’t being scheduled? How do you analyze taints ,tolerations, affinity and node selector to resolve such issues?
+
+2. A pod in your cluster is stuck in the Pending state for a long time.What are the possible reasons for a pod being in a Pending state?How will you diagnose and resolve this issue?
+
+3. You are tasked with managing resource utilization in your cluster. A namespace is consuming more CPU and memory than expected. How would you enforce resource limits and quotas on the namespace to control resource usage?How do requests and limits impact resource scheduling and cluster stability?
+
+4. You have a microservice-based application deployed in Kubernetes. The traffic to the application spikes unpredictably during peak hours. How would you configure the cluster to scale the application automatically?What are the differences between Horizontal Pod Autoscaler (HPA) and Vertical Pod Autoscaler (VPA), and when would you use each?
+
+5. You perform a deployment update to roll out a new version of an application, but users immediately start reporting downtime and errors.What steps would you take to debug and roll back the failed deployment?How can you make your deployments more robust to avoid such issues in the future?
+
+6. Your application’s pods are unable to communicate with each other across namespaces, and some services are unreachable.What steps would you take to debug the networking issue?How do you verify DNS resolution, network policies, and service configurations in Kubernetes?
+
+7. One of your nodes is experiencing high CPU usage, and some pods are getting evicted. How do you identify which pods are consuming excessive resources and why they are being evicted?What are some strategies to prevent resource contention in your Kubernetes cluster?
+
+8. A team reports that their pods using Persistent Volumes(PVs) are unable to mount storage. How do you troubleshoot and resolve issues related to persistent storage not being mounted?What are some best practices for handling persistent storage in Kubernetes?
+
+```
