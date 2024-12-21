@@ -1,0 +1,20 @@
+
+1. How do you revert a commit that has already been pushed to a shared repository without affecting the commit history?
+
+2. What is the difference between a fast-forward merge and a no-fast-forward merge? In what scenario would you use each?
+
+3. How would you handle a situation where a feature branch has diverged too much from the main branch, and you want to integrate the changes without losing any work?
+
+4. If two developers are working on the same file and they both make changes to the same lines, how would you resolve this using Git?
+
+5. How do you view the differences between two commits in Git? How would you compare a local branch with the remote branch?
+
+6. What are Git tags, and how would you use them to mark important points in your project’s history (e.g., releases)?
+
+7. Can you explain how to set up a Git hook that runs a linter on every commit?
+
+8. In a situation where a pull request is rejected due to failing tests, how would you fix the issue and update the pull request with the corrected commits?
+
+9. How can you undo the most recent commit, but keep the changes made in the working directory?
+
+10. If you want to work on a feature branch and you notice that the main branch has received important updates, how would you get those updates without disrupting your work?
