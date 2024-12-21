@@ -1,3 +1,4 @@
+```
 𝟭. 𝗴𝗶𝘁 𝗱𝗶𝗳𝗳: Show file differences not yet staged. 
 𝟮. 𝗴𝗶𝘁 𝗰𝗼𝗺𝗺𝗶𝘁 -𝗮 -𝗺 "𝗰𝗼𝗺𝗺𝗶𝘁 𝗺𝗲𝘀𝘀𝗮𝗴𝗲": Commit all tracked changes with a message.
 𝟯. 𝗴𝗶𝘁 𝘀𝘁𝗮𝘁𝘂𝘀: Show the state of your working directory.
@@ -23,3 +24,4 @@
 𝟮𝟯. 𝗴𝗶𝘁 𝗰𝗵𝗲𝗿𝗿𝘆-𝗽𝗶𝗰𝗸 𝗰𝗼𝗺𝗺𝗶𝘁_𝗶𝗱: Apply changes from a specific commit.
 𝟮𝟰. 𝗴𝗶𝘁 𝗯𝗿𝗮𝗻𝗰𝗵: Lists branches. 
 𝟮𝟱. 𝗴𝗶𝘁 𝗿𝗲𝘀𝗲𝘁 --𝗵𝗮𝗿𝗱: Resets everything to a previous commit, erasing all uncommitted changes.
+```
