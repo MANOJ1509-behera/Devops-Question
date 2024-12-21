@@ -1,0 +1,20 @@
+
+1. How do you revert a commit that has already been pushed to the remote repository, and what steps do you follow to ensure the change is propagated to all team members?
+
+2. What is a fast-forward merge in Git, and how does it differ from a non-fast-forward merge? When would you use one over the other?
+
+3. How can you handle a situation where you have a large number of commits to squash before merging a feature branch into the main branch?
+
+4. If you need to clean up your local Git repository by removing branches that have already been merged into the main branch, how would you go about doing that?
+
+5. What is the purpose of the `.gitignore` file, and how can you ensure that sensitive files or folders are not accidentally committed to the repository?
+
+6. How would you use `git bisect` to identify the commit that introduced a bug in a large repository, and what are some potential challenges you might encounter during the process?
+
+7. Can you explain how Git handles file renaming and how you would go about detecting a file rename in a Git repository?
+
+8. How can you configure Git to automatically sign your commits with GPG, and why is this important in an enterprise setting?
+
+9. How would you use `git log` to view the commit history in a specific branch or for a specific author, and what are some useful flags you can add to refine the output?
+
+10. Explain the difference between `git fetch` and `git pull` and how each command impacts the local repository’s state when working with remote repositories.
