@@ -1,0 +1,19 @@
+1. How would you handle a situation where you need to push changes to a remote repository but the push is rejected due to non-fast-forward updates? What steps would you take to resolve this?
+
+2. In a scenario where you need to pull changes from a remote repository but want to avoid any merge conflicts, what is the best strategy to follow?
+
+3. How do you handle a situation where you accidentally commit files that should have been ignored (e.g., large log files or sensitive data), and how can you remove them from both your local and remote repositories?
+
+4. Explain how you can configure Git to automatically rebase your local commits before pushing them to a remote repository. Why is this useful in a collaborative environment?
+
+5. How would you address a situation where a colleague pushes directly to the `main` branch without following the proper pull request process? What actions would you take to enforce better Git practices in your team?
+
+6. Can you explain the difference between `git reset`, `git revert`, and `git checkout`? In what scenarios would you use each command, and how do they impact the commit history?
+
+7. How can you use Git hooks to enforce code style checks or run unit tests before commits are made? Can you describe a scenario where this automation could prevent issues?
+
+8. What is a Git merge conflict, and how would you resolve one when working in a team with multiple branches? What tools can you use to make conflict resolution easier?
+
+9. If you needed to delete a remote Git branch, what steps would you take to ensure that the branch is safely removed and does not disrupt the team’s workflow?
+
+10. How do you handle large binary files (e.g., images, videos) in a Git repository, and what strategies or tools can you use to prevent bloating your Git history with large files?
