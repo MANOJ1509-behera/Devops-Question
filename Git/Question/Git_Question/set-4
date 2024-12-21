@@ -1,3 +1,4 @@
+```
 1. How would you handle a situation where you need to push changes to a remote repository but the push is rejected due to non-fast-forward updates? What steps would you take to resolve this?
 
 2. In a scenario where you need to pull changes from a remote repository but want to avoid any merge conflicts, what is the best strategy to follow?
@@ -17,3 +18,4 @@
 9. If you needed to delete a remote Git branch, what steps would you take to ensure that the branch is safely removed and does not disrupt the team’s workflow?
 
 10. How do you handle large binary files (e.g., images, videos) in a Git repository, and what strategies or tools can you use to prevent bloating your Git history with large files?
+```
