@@ -18,3 +18,30 @@
 16. Is it possible to run a virtual machine (VM) in AWS without creating an EC2 instance? If so, how
 17. Explain the difference between stopping and terminating an EC2 instance. Additionally, describe the concept of EC2 hibernation and how it enables instances to be restarted from a saved state.
 ```
+## Day - 2
+```
+1. Your company is planning to migrate its on-premises data center to AWS. As part of the migration strategy, you need to ensure minimal downtime and data loss. How would you plan and execute the migration process?
+
+2. Can you describe a situation where you used Docker to solve a specific problem?
+
+3. You're in charge of maintaining Docker environments in your company and You've noticed many stopped containers and unused networks taking up space. Describe how you would clean up these resources effectively to optimize the Docker environment.
+
+4. You're part of a development team deploying a microservices architecture using Docker containers. One of the containers, critical to the system's functionality, has suddenly started failing without clear error messages. How do you debug issues in a failing Docker container?
+
+5. You are managing a high-traffic web application hosted on AWS. Recently, you've noticed intermittent performance issues during peak hours, resulting in increased latency and occasional downtime. How would you diagnose and address this issue?
+
+6. You are responsible for securing an AWS infrastructure hosting sensitive customer data. How would you design and implement a robust security strategy to protect against data breaches and unauthorized access?
+
+7. Your organization is experiencing exponential growth in data volume, leading to increased storage costs on AWS. How would you design a cost-effective storage solution that balances performance, scalability, and cost efficiency?
+
+8. How do you set up a Kubernetes cluster on GKE? 
+
+9. What are some strategies for scaling Kubernetes applications on GKE? 
+
+10. Explain the role of Helm in Kubernetes deployments.
+ 
+11. How do you secure Kubernetes pods and services in GKE? 
+
+12. What is the importance of resource quotas and limits in Kubernetes?
+
+```
