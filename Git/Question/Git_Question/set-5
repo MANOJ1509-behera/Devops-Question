@@ -1,0 +1,21 @@
+```
+1. How do you resolve a merge conflict in Git when the conflict occurs in a binary file?
+
+2. How would you reset a Git repository to a previous commit and remove all the changes made after that commit?
+
+3. What is the difference between the `git rebase` and `git merge` commands, and when would you use one over the other?
+
+4. How can you check which files are being tracked in your repository, and how can you stop tracking a file?
+
+5. How do you create a new branch that is based on a specific commit, not the current branch?
+
+6. How can you compare the local repository with the remote repository in Git, and what commands would you use to fetch changes from the remote repository without merging them?
+
+7. In a large team, how do you ensure that each developer's commit history remains clean and avoid merge commits on feature branches?
+
+8. How would you handle a situation where a file has been deleted in one branch and modified in another? What steps would you take to ensure both changes are preserved?
+
+9. If you need to cherry-pick a commit from another branch but avoid unnecessary commits being included, how would you do that?
+
+10. What steps would you take to remove a file from the history of a Git repository that has been committed by mistake (e.g., a large binary file)?
+```
