@@ -1,0 +1,26 @@
+```
+1. What were your biggest challenges while implementing Docker in your project? How did you overcome them?
+2. Describe when using Docker saved significant time or resources in your project.
+3. Imagine a containerized application failing to start due to missing dependencies. How would you debug this issue?
+4. You need to migrate a Dockerized application to a new environment (e.g., from on-premises to the cloud). How would you approach this migration?
+5. How would you optimize the build time of a Docker image in a CI/CD pipeline?
+6. Your production environment uses multiple containers to handle high traffic. Suddenly, some containers become unresponsive. How do you troubleshoot this?
+7. A containerized service is consuming excessive resources, impacting other services. How do you limit its resource usage using Docker?
+8. Describe your approach to monitoring and logging in a Dockerized environment.
+Follow-up: Did you integrate any tools like ELK Stack or Prometheus for monitoring containers?
+9. Have you worked with multi-stage builds in Docker?
+Follow-up: How did multi-stage builds improve the efficiency of your Docker images?
+10. How do you secure sensitive information (e.g., API keys, database credentials) in Dockerized applications?
+Follow-up: Did you use Docker Secrets or any external tools? How effective were they?
+11. Explain how Docker Compose helped in orchestrating your multi-container application.
+Follow-up: How did you ensure service dependencies (e.g., database availability) were correctly handled?
+12. Have you faced any networking issues between containers in your project? How did you troubleshoot and resolve them?
+13. Can you explain the difference between a Docker Volume and a bind mount?
+Follow-up: In your project, which one did you prefer, and why?
+14. How do you handle dependencies in a Docker container?
+Follow-up: Have you encountered dependency conflicts while building Docker images? How did you resolve them?
+15. How does Docker differ from traditional virtualization technologies like VMs?
+Follow-up: What specific advantages did you observe when migrating your project from a VM-based architecture to Docker?
+
+
+```
