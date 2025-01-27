@@ -361,3 +361,22 @@ These questions are tailored to entry-level DevOps roles and will help you showc
 
 
 ```
+set - 8
+```
+🔧 Real-Time DevOps Challenge & Solution 🚀
+
+🎯 Problem:
+While deploying a new microservices architecture, one of the services kept failing intermittently. The logs showed vague "connection timeout" errors, but everything seemed fine on the surface – the database was up, the network stable, and other services were running without issues.
+This delay in identifying the root cause led to missed SLAs and a frustrated team.
+
+🧠 Root Cause Analysis:
+After digging deeper, it turned out that:
+The Kubernetes liveness probes were misconfigured, causing the service to restart before a healthy connection could be established.
+The database connection pool was exhausted due to high concurrent requests during peak load, which was not anticipated in the testing environment.
+
+🔧 Solution:
+Updated the liveness and readiness probes to account for a proper initialization period by increasing initialDelaySeconds.
+Increased the database connection pool size and implemented circuit breaker patterns to handle peaks gracefully.
+Set up a load testing pipeline to simulate real-world peak traffic conditions in pre-production environments.
+
+```
