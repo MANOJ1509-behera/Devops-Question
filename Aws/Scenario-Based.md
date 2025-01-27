@@ -24,3 +24,28 @@
 * Your EKS cluster is not scaling as expected. How would you troubleshoot and configure autoscaling for the cluster
 
 ```
+## set - 2
+```
+
+1.What is AWS Elastic Beanstalk, and why is it important?
+2.How do you monitor applications in AWS?
+3.How would a failure in a GitLab Runner impact production?
+4.Can we purchase SSL certificates from third-party providers, or should we get them from Amazon?
+5.How would you address network latency issues causing continuous page loading?
+6.How would you alert a specific user when they create a service in an AWS account?
+7.How would you ensure the security of data stored in an S3 bucket?
+What is AWS ACM (AWS Certificate Manager)?
+8.If users experience latency and slowness when logging into an AWS-hosted application, how would you address the issue?
+9.How do you take notes during a Knowledge Transfer (KT) session? What key points would you focus on?
+10.What is the purpose of Amazon CloudFront?
+11.Is it possible to use a third-party certificate with AWS ACM?
+12.Do you have experience with GitLab Runner?
+13.How would you troubleshoot an application error like “service not found”?
+14.If asked to build an entire infrastructure, where would you start?
+15.Can we use an S3 bucket to build a web application?
+16.What is the difference between GitLab and GitHub?
+17.What types of certificates can we use in AWS?
+
+
+
+```
