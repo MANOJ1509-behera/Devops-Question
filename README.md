@@ -247,5 +247,24 @@ Like how do you debug the crash in container?
 30. Explain how you would write a script to monitor disk space usage on an EC2 instance and send an alert if the usage exceeds a threshold.
 
 ```
+## Set-6
 
+```
+🤖 What do you know about DevOps?
+💼 What types of projects have you worked on? Can you please explain?
+🛠️ What tools have you integrated into DevOps?
+🌐 I have a VPN in the organization and we use AWS Cloud. If a new employee joins, how can I create a user in AWS and grant them access through the VPN?
+💻 Explain the steps or implementation. Senior, take your time—I’ll access and use my laptop.
+🧐 I have an EC2 instance that’s already created. How would you find out who created it?
+🧑💻 What is metadata in EC2?
+🔍 I’ll show you some services in my AWS account. Can you identify any security leaks in the infrastructure?
+⚠️ What happens when a GitLab CI/CD runner fails?
+🔄 If the GitLab runner fails, will it impact production?
+⛔ If the GitLab server goes down, what would you do to regain access to the code and bring it back up?
+🔒 How would you secure the GitLab server?
+
+🗂️ What files need to be backed up in GitLab to ensure recovery of the code?
+It was a great opportunity to engage in a thoughtful discussion about DevOps practices, AWS, and security. I am looking forward to applying these insights to my next challenge!
+
+```
 
