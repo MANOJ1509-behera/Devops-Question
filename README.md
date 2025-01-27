@@ -305,3 +305,59 @@ Like how do you debug the crash in container?
 
 ```
 
+## set-7
+```
+𝐋𝐢𝐧𝐮𝐱:
+What is the command to check system uptime?
+How do you create and delete users in Linux?
+What is the difference between hard links and soft links?
+How do you check disk space usage?
+What is the purpose of the chmod and chown commands?
+How do you check active processes on a system?
+
+𝐆𝐢𝐭:
+What is Git, and why is it used in DevOps?
+What is the difference between git fetch and git pull?
+How do you resolve a merge conflict in Git?
+Explain branching strategies in Git.
+What is the purpose of the .gitignore file?
+
+𝐃𝐨𝐜𝐤𝐞𝐫:
+What is Docker, and how does it work?
+What is the difference between an image and a container?
+How do you create a Dockerfile, and what are common instructions?
+Explain Docker Compose and its use cases.
+What is the purpose of Docker volumes?
+
+𝐉𝐞𝐧𝐤𝐢𝐧𝐬 (𝐂𝐈/𝐂𝐃):
+What is CI/CD, and why is it essential in DevOps?
+How do you configure a Jenkins pipeline?
+What is the difference between a declarative and a scripted pipeline?
+How do you integrate Jenkins with Git?
+Explain how to manage Jenkins plugins and upgrades.
+
+𝐓𝐞𝐫𝐫𝐚𝐟𝐨𝐫𝐦:
+What is Terraform, and why is it used in DevOps?
+Explain the Terraform workflow (init, plan, apply, destroy).
+What is the purpose of state files in Terraform?
+How do you manage remote backends in Terraform?
+What is the difference between count and for_each?
+
+𝐊𝐮𝐛𝐞𝐫𝐧𝐞𝐭𝐞𝐬:
+What is Kubernetes, and why is it popular?
+Explain the difference between Pods, ReplicaSets, and Deployments.
+What is a ConfigMap, and how is it used?
+How do rolling updates work in Kubernetes?
+What is the role of etcd in Kubernetes?
+
+𝐀𝐖𝐒 𝐁𝐚𝐬𝐢𝐜𝐬:
+What is AWS, and what are its primary services?
+What is the difference between EC2, S3, and RDS?
+Explain vertical vs. horizontal scaling in AWS.
+What is a security group, and how does it differ from a network ACL?
+What is the purpose of AWS IAM roles and policies?
+These questions are tailored to entry-level DevOps roles and will help you showcase your understanding of core concepts and tools.
+
+
+
+```
