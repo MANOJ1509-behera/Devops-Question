@@ -1,0 +1,30 @@
+```
+1. You are tasked with upgrading your Kubernetes cluster to a newer version.
+What challenges might you face during a cluster upgrade?
+How would you plan and execute a seamless upgrade without impacting running applications?
+
+2. Your organization requires stricter security controls for pod deployments.
+How would you enforce pod security policies to restrict permissions, such as root access or privileged containers?
+What alternatives to PSPs would you consider since they are deprecated?
+
+3. You need to monitor application performance and resource usage in your cluster.Which tools would you use to monitor Kubernetes clusters effectively?
+How would you implement monitoring for resource usage, application logs, and network traffic?
+
+4. A critical application is deployed on your Kubernetes cluster, and you are required to implement disaster recovery. How would you design a backup and recovery solution for the application and cluster?
+What tools or strategies would you use to back up etcd, persistent data, and application configurations?
+
+5.You need to perform maintenance on a node in your cluster, but it runs critical application pods. How would you drain the node without causing downtime for the applications? What would you do if some pods fail to evict during the drain?
+
+6. You have applications running in two separate Kubernetes clusters, and they need to communicate securely. How would you establish secure communication between applications across clusters? What tools or practices would you use for cross-cluster networking?
+
+7. Your team demands zero downtime during deployments.
+How would you configure your deployment strategy to achieve zero downtime?
+Compare and contrast the use of RollingUpdate and Blue/Green Deployments.
+
+8. You need to expose an application securely over HTTPS using an ingress controller.How would you configure an ingress resource with SSL termination?
+What considerations would you make for managing SSL certificates in Kubernetes?
+
+9. You have been asked to review the security posture of your Kubernetes cluster.What steps would you take to harden the cluster?
+How would you ensure RBAC policies, network policies, and secure communication between components are implemented?
+
+```
