@@ -45,3 +45,102 @@
 12. What is the importance of resource quotas and limits in Kubernetes?
 
 ```
+# Day-3
+---------
+```
+1. What are your typical daily responsibilities in your current role?
+
+
+2. Where is your current project hosted?
+
+
+3. What AWS services have you worked with so far?
+
+
+4. Do you have practical experience with AWS CloudFormation?
+
+
+5. Are you more comfortable using CloudFormation or Terraform?
+
+
+6. Have you worked with Prometheus and Grafana in your projects?
+
+
+7. What tasks related to Prometheus are you currently handling?
+
+
+8. Have you ever created a Dockerfile?
+
+
+9. What CI/CD tools have you used in your projects?
+
+
+10. Can you describe the process that occurs when a developer commits code or creates a pull request?
+
+
+11. Where do you usually execute your Dockerfiles?
+
+
+12. What is the difference between a Docker image and a container?
+
+
+13. If you have a 5GB Docker image but need to deploy it on an EC2 instance with only 2GB of RAM, how would you address this?
+
+
+14. When working with Terraform, do you generally create modules or scripts?
+
+
+15. What types of Terraform blocks have you written?
+
+
+16. Can you explain the different Terraform blocks you’ve used?
+
+
+17. Why would you use a dynamic block in Terraform?
+
+
+18. What is the difference between a dynamic block and an output block in Terraform?
+
+
+19. How many environments are you managing?
+
+
+20. Does each environment have its own Kubernetes cluster?
+
+
+21. How many nodes are there in your Kubernetes clusters?
+
+
+22. What are the specifications for the nodes in your Kubernetes clusters?
+
+
+23. How many pods are currently running in your clusters?
+
+
+24. Are pods allocated to specific nodes?
+
+
+25. If not, why is it still referred to as a cluster?
+
+
+26. What types of services are you utilizing in Kubernetes?
+
+
+27. Are Kubernetes services exposed to the outside world?
+
+
+28. Have you worked with an Ingress controller in your projects?
+
+
+29. When writing Kubernetes YAML files, do you specify the kind as Pod, ReplicaSet, or Deployment?
+
+
+30. Why would you use kind: Pod, kind: ReplicaSet, and kind: Deployment in separate YAML files when it seems possible to use only kind: Deployment?
+
+
+31. Why are Kubernetes resources like Pod, ReplicaSet, and Deployment defined separately when a Deployment can manage both Pods and ReplicaSets?
+
+
+32. What is your reason for seeking a change in your current role?
+
+```
