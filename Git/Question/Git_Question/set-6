@@ -1,0 +1,26 @@
+```
+
+What is Git, and why is it used?
+What is the difference between Git and GitHub?
+How do you initialize a Git repository?
+What is the difference between git pull and git fetch?
+What are the three main states of a Git file?
+What is the purpose of .gitignore?
+How do you check the status of your repository in Git?
+What is the difference between git add and git commit?
+How do you view the commit history in Git?
+What is the purpose of the staging area in Git?
+Intermediate Questions
+What is a Git branch, and why is it used?
+How do you create a new branch in Git?
+How do you switch between branches in Git?
+What is a merge conflict, and how do you resolve it?
+What is the difference between git reset, git revert, and git checkout?
+What is the difference between a fast-forward and a three-way merge?
+How do you stash changes in Git?
+How do you retrieve a stashed change?
+What is the purpose of the HEAD in Git?
+What is a detached HEAD state in Git?
+
+
+```
