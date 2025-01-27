@@ -212,5 +212,40 @@ Like how do you debug the crash in container?
 19. For somebody who don't know Grafana and GLK, what will you describe these solutions as?
 
 ```
+## set-6
+```
+
+1. Can you explain how Terraform works and describe its main components (providers, modules, state files)?
+2. Explain the concept of "Infrastructure as Code" (IaC) and why it's important in DevOps.
+3. How do you manage Terraform state files in a team environment?
+4. How would you handle versioning of Terraform configurations?
+5. How do you handle secret management in Terraform ?
+6. What is ENI.
+7. What are the different compute classes available for ec2 and how do they differ.
+8. Cloudfront vs Global Accelarator?
+9. What is gateway load balancer?
+10. How would you set up a high-availability architecture in AWS?
+11. Can you explain AWS IAM roles and policies and how to manage them securely for a DevOps pipeline?
+12. What is Ansible, and how does it differ from other configuration management tools like Chef or Puppet?
+13. How do you use Ansible to automate infrastructure provisioning and application deployment?
+14. Sample playbook to install nginx where OS is CentOS
+15. Are Ansible playbooks Idempotent ?
+16. Multistage docker build ?
+17. Are docker images immutable ?
+18. Where are docker volumes stored?
+19. What is docker compose ?
+20. Can you explain the architecture of Kubernetes and describe its key components (Pods, Nodes, Services, etc.)?
+21. What is the difference between a Deployment and a StatefulSet in Kubernetes?
+22. How do you manage scaling and resource requests/limits in Kubernetes?
+23. How would you troubleshoot a pod that is failing to start in Kubernetes?
+24. Explain how you would implement continuous deployment in Kubernetes. What tools or approaches would you use?
+25. What monitoring tools have you worked with, and how do you integrate them into your DevOps workflow?
+26. How would you set up monitoring for a microservices architecture running on Kubernetes?
+27. How do you ensure high availability for monitoring and logging systems?
+28. Explain how you would set up Prometheus and Grafana for application monitoring and alerting.
+29. What metrics are most important for monitoring cloud infrastructure, and why?
+30. Explain how you would write a script to monitor disk space usage on an EC2 instance and send an alert if the usage exceeds a threshold.
+
+```
 
 
