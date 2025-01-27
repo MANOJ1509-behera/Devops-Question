@@ -1,0 +1,47 @@
+```
+
+1. How would you diagnose and resolve a system that is running low on disk space?
+
+Commands: df -h, du -sh *, Isof | grep deleted
+
+Explanation: Use df to check disk usage, du to check directory sizes, and Isof to find open files that are consuming space.
+
+2. How do you troubleshoot a system that is running out of memory?
+
+Commands: free -m, top, vmstat, dmesg | grep -i oom
+
+Explanation: Check memory usage with free and top.
+
+Use vmstat to analyze memory statistics and look for OOM (Out of Memory) errors in dmesg.
+
+3. The system is slow and users are complaining about performance. What steps would you take to troubleshoot?
+
+Commands: top, htop, iotop, vmstat, sar
+
+Explanation: Check CPU, memory, disk, and I/O usage with top and iotop. Use vmstat and sar for historical data analysis.
+
+4. The system is experiencing disk I/O issues. How would you troubleshoot?
+
+Commands: iostat, iotop, dstat, vmstat
+
+Explanation: Use iostat to monitor disk I/O statistics.
+
+iotop shows I/O usage by processes. dstat provides detailed performance metrics for various resources.
+
+5. How do you check for a full filesystem and resolve it?
+
+Commands: df -h, du -sh *, Isof | grep deleted,
+
+journalctl
+
+Explanation: Use df to check filesystem usage, du to analyze space consumption by directories, and Isof to detect open but deleted files.
+
+6. The system is not resolving domain names. How would you troubleshoot DNS issues?
+
+Commands: nslookup, dig, cat /etc/resolv.conf, systemctl restart network
+
+Explanation: Use nslookup and dig to check DNS resolution. Verify /etc/resolv.conf for correct nameservers. Restart networking if necessary.
+
+
+
+```
