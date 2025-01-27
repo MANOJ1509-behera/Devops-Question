@@ -1,0 +1,29 @@
+```
+1. A service configured with a LoadBalancer type is not accessible from outside the cluster. How would you debug and resolve this issue?
+What are the key components and configurations to check?
+
+2. You’ve enabled the Cluster Autoscaler in your cloud provider’s Kubernetes cluster, but it isn’t adding nodes even when resources are insufficient.
+How would you debug why the Cluster Autoscaler isn’t working?
+What configurations and prerequisites are necessary for the autoscaler to function correctly?
+
+3. You observe that certain nodes in your cluster are underutilized, leading to resource wastage. How would you identify and address the issue of underutilized nodes?What strategies, like overprovisioning or pod scheduling, can optimize resource usage?
+
+4. Your team wants to test new application versions with a small percentage of users before a full rollout. How would you implement a canary deployment in Kubernetes?What tools (e.g., Argo Rollouts, Flagger) can assist in this process, and how do they work?
+
+5. You need to manage application configurations that change frequently without redeploying the application. How would you use ConfigMaps and Secrets to achieve this?What are the differences between these resources, and how do you securely manage them?
+
+6. A production application deployed on Kubernetes is experiencing intermittent failures. How would you debug a live application without disrupting other users?Which Kubernetes tools (e.g., kubectl debug, logs, metrics) would you leverage?
+
+7. Your organization requires a highly available application that spans multiple regions. How would you design and deploy a Kubernetes-based solution for cross-region high availability? What challenges would you face, and how would you mitigate them?
+
+8. You discover that Kubernetes certificates in your cluster are about to expire. 
+How would you identify and renew expiring certificates?What tools or steps would you use to prevent this from happening in the future?
+
+9. Your organization mandates encrypted communication between pods.
+How would you implement pod-to-pod encryption in a Kubernetes cluster?
+What tools, such as mTLS or service meshes, would you use, and why?
+
+10. Your cluster’s scheduler is taking too long to assign pods to nodes.
+How would you debug and optimize scheduler performance?What Kubernetes features (e.g., PriorityClass, scheduler configuration) can improve scheduling efficiency?
+
+```
