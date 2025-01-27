@@ -145,7 +145,7 @@
 
 ```
 
-set - 4
+## set - 4
 
 ```
 1. what tools do you use on a daily basis from the Linux perspective?
@@ -176,6 +176,40 @@ set - 4
 26. Have you used s3?What  was the purpose for? and classes?
 27.  what other AWS services have you used?
 28. Have you used load balancing based on route 53?
+
+```
+set - 5
+```
+1. were you able to write some code as well in Jenkins (asking that I am able to write the Jenkins pipeline).
+2. have you worked on AWS?
+3. let's say I have a single page application.
+Do you know how to post it in the S3 bucket?
+4. let's say  that you have a S3 bucket.
+Within that, I just have to make one of the folder or object as a public or can be accessed by external user.
+What would you do?
+5. if you want to restrict running of some   instances during weekends
+and holidays.
+How would you do?
+6. Have you used event bridges?
+7. Have you done any provisioning using MongoDB at last with Terraform?
+8. how do you structure a Terraform project and how do you handle different environments?
+9. Do you know something called the statefiles in Terraform?
+10. can you speak about what are the backends available for state storage?
+What are some of the best ones? and why?
+11. Was it also used a lock with DynamoDB? and why?
+12. if I use this Terraform refresh, what really happens?
+13. there is a database which is auto-operating its migration version.
+Okay. And we see it just over a month.
+Okay.
+How will you handle this situation?
+14. Do you know what is the purpose of Terraform import command and when can we use it?
+15. let's say we have an EC2 instance, which cannot be created without creating a VPC. How do you ensure that Terraform creates VPC first, before EC2?
+16. how do you optimize the Docker image?
+17. one last question is about, you know, deployment strategies.
+Like, if there's going to be a rolling update, how we do it, you know?
+18. Let's say you have a container crash.
+Like how do you debug the crash in container?
+19. For somebody who don't know Grafana and GLK, what will you describe these solutions as?
 
 ```
 
