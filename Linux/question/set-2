@@ -1,0 +1,56 @@
+```
+1. Check the current system load and CPU usage in Linux:
+Use uptime, top, or htop to check system load and CPU usage.
+
+2. Purpose of the top and htop commands:
+Both are used to monitor system processes and resource usage. htop is a more user-friendly, interactive version of top.
+
+3. Check memory usage on your Linux system:
+Use free -h or top to view memory usage.
+
+4. Write a shell script to back up files:
+1. Example script: 
+	#!/bin/bash
+	cp -r /path/to/source/* /path/to/destination/
+
+5. Purpose of the #!/bin/bash line at the beginning of a script:
+This is called a shebang, indicating the script should be executed using the Bash shell.
+
+6. Create variables in a shell script:
+To create a variable, simply assign a value: variable_name="value". Refer to it as $variable_name.
+
+7. Difference between apt-get, yum, and dnf:
+	apt-get: Package manager for Debian-based systems.
+	yum: Package manager for older RedHat-based systems.
+	dnf: The newer package manager for RedHat-based systems, replacing yum.
+
+8. Install a package in a Debian-based system and in a RedHat-based system:
+Debian: sudo apt-get install package-name
+RedHat: sudo yum install package-name or sudo dnf install package-name
+
+9. Update all packages on a Linux system:
+Debian: sudo apt-get update && sudo apt-get upgrade
+RedHat: sudo yum update or sudo dnf update
+
+10. Different types of file permissions in Linux:
+Read (r): Permission to view the file content.
+Write (w): Permission to modify the file.
+Execute (x): Permission to execute the file.
+
+11. Change the owner and group of a file in Linux:
+Use chown owner:group file to change the file's owner and group.
+
+12. Secure SSH connections in Linux:
+Use SSH key-based authentication, disable root login, and use a strong passphrase.
+
+13. Where are system logs stored in Linux:
+Logs are stored in the /var/log/ directory, with files like /var/log/syslog, /var/log/auth.log, etc.
+
+14. View logs in real-time:
+Use tail -f /var/log/syslog to view logs as they are written.
+
+15. Search for a specific event in system logs:
+Use grep to search, for example: grep "event" /var/log/syslog to search for the event in syslog.
+
+
+```
