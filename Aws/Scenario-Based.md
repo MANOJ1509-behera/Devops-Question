@@ -49,3 +49,49 @@ What is AWS ACM (AWS Certificate Manager)?
 
 
 ```
+
+## Set - 3
+
+```
+1. Scenario: Your team is tasked with deploying a web application using AWS services. What AWS services would you recommend for a typical CI/CD pipeline, and why?
+
+
+2. Scenario: You need to monitor the performance of your AWS resources. What AWS services would you use for monitoring and logging, and what metrics would you track?
+
+
+3. Scenario: Your application is experiencing a sudden spike in traffic, and you need to ensure it can handle the load. What AWS services would you implement to achieve scalability and high availability?
+
+
+4. Scenario: You need to set up an automated deployment process for a microservices architecture. What AWS services would you use, and how would you implement them?
+
+
+5. Scenario: Your team is transitioning to infrastructure as code (IaC) using AWS CloudFormation. What best practices would you recommend for writing and managing CloudFormation templates?
+
+
+6. Scenario: Your application requires authentication and authorization. How would you implement security in your AWS DevOps pipeline?
+
+
+7. Scenario: Your organization wants to implement continuous monitoring in its DevOps processes. What AWS tools would you utilize, and what key metrics would you focus on?
+l
+
+8. Scenario: Your development team frequently pushes changes to production. How can you implement a blue/green deployment strategy using AWS services?
+
+
+9. Scenario: You need to perform backups of your application data regularly. What AWS services would you recommend for implementing a backup strategy?
+
+
+10. Scenario: You are asked to optimize your AWS infrastructure costs. What strategies would you suggest to achieve this?
+
+
+11. Scenario: Your application requires a multi-region architecture for disaster recovery. How would you design this using AWS services?
+
+
+12. Scenario: Your team is working on a microservices architecture, and you need to manage inter-service communication securely. What AWS services and patterns would you suggest?
+
+
+13. Scenario: Your organization wants to ensure compliance and security for its AWS resources. What AWS services would you recommend for auditing and governance?
+
+14. Scenario: You need to create a serverless application that handles real-time data processing. What AWS services would you use, and how would you architect the solution?
+
+
+```
