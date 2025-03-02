@@ -742,3 +742,59 @@ Set up a load testing pipeline to simulate real-world peak traffic conditions in
  20. How do you optimize the performance of a Jenkins pipeline?
 
 ```
+
+## set - 20
+
+```
+1. What is DevOps, and why is it important? 
+2. How does DevOps differ from Agile and traditional IT operations?
+3. What are the key benefits of DevOps? 
+4. What are some key DevOps tools you have worked with?
+5. Explain the DevOps lifecycle. 
+6. What are some common Linux commands used in DevOps? 
+7. How do you schedule a cron job in Linux? 
+8. What is the difference between grep, sed, and awk? 
+9. How do you check system performance in Linux? 
+10.How would you write a Bash script to automate a task? 
+11.What is Git, and why is it used in DevOps? 
+12.Explain the difference between Git merge and Git rebase. 
+13.What is a Git branching strategy? 
+14.How do you resolve merge conflicts in Git? 
+15.Explain the purpose of a Git commit, push, pull, and fetch.
+16.What is Continuous Integration (CI), and why is it important? 
+17.What is Continuous Deployment (CD), and how does it differ from Continuous Delivery? 
+18.How would you set up a CI/CD pipeline? 
+19.What are some common CI/CD tools, and how do they compare? 
+20.How do you handle rollback in a CI/CD pipeline? 
+ 21.What are the benefits of cloud computing in DevOps? 
+22.What are the main services provided by AWS for DevOps?
+23.What is the difference between EC2, ECS, and EKS in AWS?
+24.What is IAM, and how does it help in security? 
+25.How would you deploy an application in the cloud? 
+26.What is Docker, and how does it work? 
+27.Explain the difference between a Docker image and a Docker container. 28.What is Kubernetes, and why is it used? 
+29.What is a Kubernetes Pod, and how does it work? 
+30.What is the difference between a Deployment and a StatefulSet in Kubernetes? 
+31.What is Infrastructure as Code (IaC), and why is it important? 
+32.How does Terraform differ from Ansible? 
+33.What are Terraform modules, and how do they work? 
+34.Explain the difference between terraform plan and terraform apply. 
+35.How would you manage secrets in Terraform? 
+36.What is monitoring in DevOps, and why is it necessary? 
+37.What is the difference between Prometheus and Grafana? 
+38.How would you set up an alert in Prometheus? 
+39.What is the ELK Stack, and what is it used for? 
+40.How do you debug performance issues in a production system? 
+41.What are some best practices for securing CI/CD pipelines? 
+42.What tools do you use for security scanning in DevOps? 
+43.How would you handle secrets management in DevOps? 
+44.How do you ensure compliance with security policies in DevOps workflows?
+45.How would you handle a failing deployment? 
+46.What steps would you take if a Kubernetes pod is stuck in a crash loop? 
+47.How do you troubleshoot high CPU usage in a cloud environment? 
+48.How would you optimize a slow-running CI/CD pipeline? 
+49.Tell me about a time when you solved a major DevOps challenge. 
+50.What is HPA (Horizontal Pod Autoscaler)?
+
+
+```
