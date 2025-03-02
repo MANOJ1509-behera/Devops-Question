@@ -520,7 +520,7 @@ Set up a load testing pipeline to simulate real-world peak traffic conditions in
 
 ````
 
-## set -12
+## set - 12
 
 ```
 1. Can you write a real time python automation code.
@@ -539,5 +539,44 @@ Set up a load testing pipeline to simulate real-world peak traffic conditions in
 14. Where you used python and shell scripting
 15. How many builds are stored in a pipeline project of Jenkins.
 
+
+```
+
+## set - 13
+
+```
+1.Can you walk us through your experience as a DevOps Engineer? 
+2.What has been your biggest challenge in DevOps, and how did you handle it? 3.What DevOps tools have you used for CI/CD pipeline automation? Can you describe how you set up a pipeline? 
+4.Have you worked with GitOps? Can you explain how it differs from traditional CI/CD? 
+5.How do you manage pipeline security and ensure compliance with DevSecOps best practices? 
+6.Have you used GitHub Actions? Can you describe a complex automation workflow you implemented? 
+7.How do you deploy and manage Kubernetes clusters in a production environment?
+ 8.What challenges have you faced with Kubernetes deployments, and how did you troubleshoot them? 
+9.How do you handle Docker container security in a DevOps pipeline? 
+10.Can you explain the use of ArgoCD or Flux in an automated deployment setup?
+11.Can you explain how you automate infrastructure provisioning using Terraform or Ansible?
+12.How do you ensure IaC scripts remain maintainable and do not introduce vulnerabilities?
+13.What experience do you have with AWS cloud technologies?
+14.How do you manage multi-cloud (AWS & Azure) deployments effectively?
+15.How do you optimize cloud costs while ensuring performance?
+16.Have you developed applications using Java or Quarkus?
+17.Can you explain the differences between RESTful APIs and GraphQL?
+18.How do you handle authentication and security in API development?
+19.What best practices do you follow for PostgreSQL database performance tuning?
+20.Can you describe a critical production issue you encountered and how you resolved it?
+21.How do you handle Incident Management (IM) and Critical Incident Management (CIM)?
+22.What strategies do you use to reduce system downtime?
+23.How do you approach Problem Management (PM) and Change Management (CM)?
+24.What are the best practices you follow for securing applications and cloud infrastructure?
+25.Have you worked with ITIL operation processes (Incident, Problem, Change management)?
+26.How do you ensure compliance with industry security standards?
+27.How do you integrate security scanning in CI/CD pipelines?
+28.Have you worked in an Agile environment? How do you handle rapid changes in requirements?
+29.How do you balance technical priorities vs. business needs?
+30.How do you manage cross-functional collaboration in a DevOps team?
+31.How do you handle conflict resolution within a team?
+32.Have you worked with microservices architecture? How do you manage service communication and security?
+33.Do you have experience with Nagios or other monitoring tools?
+34.Can you describe a time when you had to mediate a dispute between team members?
 
 ```
