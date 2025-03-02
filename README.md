@@ -580,3 +580,165 @@ Set up a load testing pipeline to simulate real-world peak traffic conditions in
 34.Can you describe a time when you had to mediate a dispute between team members?
 
 ```
+
+## set - 14
+
+```
+1. Introduction and Day to Day activities 
+2. In Your Company You worked in Terraform there you have maintain statefiles. How to secure it in remote in AWS How you lock the files by using Dynamo DB.
+3. Who will take it create dynamo DB for likes means you only take decision or some bady give insteuctions.
+4 How can deploy the application by using ECS forgate and EKS.
+5. How can open forgate in ECS for EKS Cluster.
+6 Are deploy applications on EKS are creating infrastructure only.
+7.How to auto play books in yaml. How can you create and run multiple tasks play book.
+8. what is role of Ansible in monitoring explain detail way.
+9. In Sonarqube will find vulnerabilities how to you find it explai in detain.
+10. Tell me difference between CMD and Entry point.
+11. In your organization do you face any errors . are trouble shoot your own without taking any one help.
+12. how can create and check the Kubernetes cluster.
+13. How can you monitor the Kubernetes logs
+14. which monitoring tool you use like graphana or Prometheus. where you install it like your local machine or Ec2 or Kubernetes cluster.
+15. If you install it in your ec2 how can communicate with kubernetes.
+16.where you monitor the logs in prometheus.
+17. Are You use Cloud Watch. Where the resource information is present. 
+18.In cloud watch are you able to find how much memory consumed and rest directly. is it possible.
+19. In GitHub unexpectedly lost rebate commits how can you revert back . is it possible to regain logs.
+20. Difference between rebase and Merge.
+
+```
+
+## set-15
+
+```
+1. Introduction and Day to Day activities 
+2. In Your Company You worked in Terraform there you have maintain statefiles. How to secure it in remote in AWS How you lock the files by using Dynamo DB.
+3. Who will take it create dynamo DB for likes means you only take decision or some bady give insteuctions.
+4 How can deploy the application by using ECS forgate and EKS.
+5. How can open forgate in ECS for EKS Cluster.
+6 Are deploy applications on EKS are creating infrastructure only.
+7.How to auto play books in yaml. How can you create and run multiple tasks play book.
+8. what is role of Ansible in monitoring explain detail way.
+9. In Sonarqube will find vulnerabilities how to you find it explai in detain.
+10. Tell me difference between CMD and Entry point.
+11. In your organization do you face any errors . are trouble shoot your own without taking any one help.
+12. how can create and check the Kubernetes cluster.
+13. How can you monitor the Kubernetes logs
+14. which monitoring tool you use like graphana or Prometheus. where you install it like your local machine or Ec2 or Kubernetes cluster.
+15. If you install it in your ec2 how can communicate with kubernetes.
+16.where you monitor the logs in prometheus.
+17. Are You use Cloud Watch. Where the resource information is present. 
+18.In cloud watch are you able to find how much memory consumed and rest directly. is it possible.
+19. In GitHub unexpectedly lost rebate commits how can you revert back . is it possible to regain logs.
+20. Difference between rebase and Merge.
+
+```
+
+## set- - 16
+
+```
+🔹 Ansible & Automation
+1. What are some routine tasks you have automated using Ansible playbooks?
+🔹 CI/CD & Security
+2. Have you used SonarQube and Trivy in your CI/CD pipeline? How did you share the reports with the DevOps team?
+3. How did you optimize CI/CD to reduce deployment time by X%?
+4. What agent did you use for running builds in your CI/CD pipeline? Do you remember the agent container names?
+🔹 AWS Cost Optimization & Networking
+5. You reduced AWS costs by X%—how did you analyze resource allocation and optimize costs?
+6. What are the downsides of using a single Ingress controller instead of multiple load balancers?
+7. What happens if there’s a traffic spike for one service?
+🔹 AWS Services & Infrastructure
+8. What AWS services have you worked with?
+9. What’s the difference between NACL and Security Groups?
+10. How do S3 and EBS differ?
+11. Is S3 region-dependent?
+12. What is an Availability Zone?
+🔹 Kubernetes & Docker
+13. How do you determine resource limits for your Kubernetes cluster?
+14. What steps can you take to reduce the size of a Docker image?
+15. What are the pros and cons of using Alpine images?
+🔹 Terraform & Infrastructure as Code
+16. Why is the Terraform state file important?
+17. If an EC2 instance already exists and you write the same Terraform configuration, what happens when you run Terraform commands?
+18. How do you import manually created AWS resources into Terraform?
+19. Why should we run terraform plan before terraform apply?
+20. What happens if cloud infrastructure changes between terraform plan and terraform apply?
+21. What key resources are required in Terraform for deploying a fully functional production-grade EC2 instance?
+🔹 DevOps Best Practices
+22. If you’re given a new project with no CI/CD pipeline, how would you design and implement one?
+23. How does Argo CD detect when an image is updated?
+24. How do you connect to an EC2 instance after deployment?
+
+```
+
+## set - 17
+
+```
+1.What is Kubernetes and what does it do? 
+2.List the main components of Kubernetes architecture 
+3.You have an application deployed on Kubernetes that is experiencing increased traffic. How would you scale the application to handle the increased load? 
+4.While troubleshooting a networking issue in the cluster, you noticed kube-proxy in the logs. What is the role of kube-proxy in Cluster? 
+5.Your team is planning a high-availability Kubernetes cluster. Describe the Process and Considerations for Designing a High-Availability Kubernetes Cluster. 
+6.In your Kubernetes environment, a master or worker node suddenly fails. What happens when the master or the worker node fails? 
+7.How does ingress help in Kubernetes? 
+8.You're selecting a service to expose your application hosted on Kubernetes. List the different types of services in Kubernetes. 
+9.What do you know about Headless service? 
+10.Your manager has instructed you to run several scripts before starting the main application in your Kubernetes pod, and suggested using init containers. What is the init container? 
+11.A Critical application running on one of nodes is not working properly. How do you monitor applications in Kubernetes? 
+12.Your manager read an article on GitOps and want you to do POC on it. What is GitOps and How do you implement it? 
+13.Company is very concerned about Securing Clusters. List some security measures that you can take while using Kubernetes. 
+14.Explain Kubernetes RBAC. 
+15.How do you perform maintenance on the K8 node? 
+16.Explain DaemonSets. 
+17.A Junior Engineer working with Database on K8s is confused and asks you to Differentiate between ConfigMaps and Secret? 
+18.What is the purpose of Operators? 
+19.How can you run a pod on a specific node? 
+20.Suppose a pod exceeds its memory limit. What signal will be sent to the process? 
+21.You need to ensure that a specific pod remains operational at all times. How to make sure that pod is always running? 
+22.What you will do to upgrade a Kubernetes cluster? 23.Why should we use custom namespaces ? 
+24.Can you schedule the pods to the node if the node is tainted?
+
+```
+
+## set - 18
+
+```
+
+
+1. A user ssh into a server yesterday. But today not why?
+2. How to make the deployed application on EC2 instances to be access from end users.
+3. How many types of scaling in AWS.
+4. I want to allow only requests from the particular region. How?
+5. The application is not receiving the request. What are the possible ways to troubleshoot.
+6. Is there any auto scaling in Kubernetes and how it works.
+7. Where the private keys available in Linux server.
+8. Can you explain the whole process of VPC and components.
+9. In monitoring dashboard, it shows the one of the pods is not running. How to trouble shoot it.
+10. How Grafana took the metrics to visualize on dashboards.
+
+```
+
+## set - 19
+
+```
+ 1. What is the difference between Docker and Kubernetes?
+ 2. How does Terraform manage infrastructure state?
+ 3. Explain the concept of Blue/Green Deployment.
+ 4. How do you ensure zero-downtime deployments in Jenkins pipelines?
+ 5. Describe the purpose of Helm in Kubernetes.
+ 6. What is the significance of Infrastructure as Code (IaC) in cloud environments?
+ 7. How do you handle secrets management in Ansible?
+ 8. Explain Canary Deployment and its benefits.
+ 9. How would you troubleshoot a failing pod in Kubernetes?
+ 10. What are the best practices for scaling a microservices architecture in AWS?
+ 11. How do you implement CI/CD pipelines using Jenkins and Git?
+ 12. What is the role of AWS CodePipeline in CI/CD?
+ 13. Explain the difference between Stateful and Stateless applications in Kubernetes.
+ 14. How do you monitor and log containers using the ELK stack?
+ 15. What is the purpose of AWS CloudFormation and how does it work?
+ 16. How do you manage container networking in Docker?
+ 17. Explain the concept of GitOps and its benefits.
+ 18. How do you implement auto-scaling in Kubernetes clusters?
+ 19. What is the difference between a Docker Image and a Docker Container?
+ 20. How do you optimize the performance of a Jenkins pipeline?
+
+```
