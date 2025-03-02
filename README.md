@@ -845,3 +845,209 @@ Set up a load testing pipeline to simulate real-world peak traffic conditions in
 
 ```
 
+## set - 22
+
+```
+
+✅ What are the different components of Kubernetes?
+✅ What are Persistent Volumes (PV) and Persistent Volume Claims (PVC)?
+✅ What is the difference between StatefulSet and Deployment?
+✅ Tell me about different services in Kubernetes.
+✅ What is the difference between ClusterIP and NodePort?
+✅ How can you achieve auto-scaling in Kubernetes?
+✅ What is a Namespace in Kubernetes?
+✅ What is a DaemonSet?
+✅ What is an Ingress in Kubernetes?
+✅ What is ConfigMap in Kubernetes?
+✅ What is a Secret in Kubernetes?
+✅ How do you securely store credentials in Kubernetes?
+✅ What is a Horizontal Pod Autoscaler (HPA) and what metrics does it use?
+✅ How does Vertical Pod Autoscaler (VPA) work?
+✅ What is the difference between HPA and VPA?
+✅ What is Role-Based Access Control (RBAC) in Kubernetes?
+✅ How do you debug a failing Pod?
+✅ What is a Custom Resource Definition (CRD)?
+✅ What are Helm charts, and how do they simplify Kubernetes deployments?
+✅ What are the main components of Helm?
+✅ What is a Helm Chart, and what does it contain?
+✅ What is a Chart.yaml file, and what is its purpose?
+✅ What is a values.yaml file, and how does it work?
+
+
+```
+
+
+## set - 23
+
+```
+1. How good are you with the Docker?
+2. Do you know what is Docker file and how to write the Docker file?
+3. Could you tell me about your project experience? Like, have you have you deployed using Compass format to the existing or clusters or any Virtual machine somewhere?
+4. Do you know about multi staging?
+5. What is the purpose of using multi stage to go from?
+6. Using the docker file, how you break up the image?
+7. Do you know about the Docker volume?
+8. Let's say you have a container. This is attached with docker volume.If the container goes down. Will the volume get deleted or what?
+9. Have you brought out the containers or services with the Docker Swarm?
+10. Could you explain about the difference btwn pod and Statefullset
+11. How do you control the source usage of a pod?
+12. Could you tell me about the services in Kubernetes? What are the registries?
+13. your case, as you said, that, you do what it is as a load balancer. Have you used to the AWS? Used AWS?
+14. Could you tell me what is Ingress?
+15. I'm writing a deployment file. Mhmm. And then, I want the volume for the pod. How do you do it?
+16. let's say, without storage class can be able to create a PVC and pv?
+17. Let's say you are managing a Kubernetes cluster. Okay. But the number of request to your application is increasing steadily. Mhmm. Okay. So how do you scale the application to handle the group?
+18. So how do you ensure that the data persistent? You know, even after pod restarts, right, on deletion?
+19. how does web application connect with my secret database, which is running it back end? How can you connect.
+20. What command do you use to check? How much does the port has used the CPU usage and the usage? How do you check?
+21. If it is multiple How do you check which pod is running in which node?
+22. are you aware of, Terraform? Like, have you worked with Terraform before?
+23. Can you please, like, describe the work we could do using Terraform?
+24. which cloud you work on?
+25. Do you configure any agents in the Jenkins master, like, maybe some dynamic, cloud in it, like, so that, like, whenever we build something, it will run on some your Docker container or Kubernetes forward?
+26. Are you aware of, Ansible scripts?
+27. One question. Have you ever been part of, certificate managements?Like, renewing the certificates?
+28. in your organization, how will you guys pick up the UI for the application using AWS?
+29. Was those created manually or using CloudFormation out there?
+30. let's say you have VPC.Okay? You have pub subnets and private subnets. And in both subnet, you have some machines running. Okay. Private subnet machines does not have a Internet connection.So how do you make sure that, you wanna download something?How does that machine get Internet connection?
+
+```
+## set - 24
+
+```
+1. what tools do you use on a daily basis from the Linux perspective?
+2. What are inodes in Linux?
+3. any experience with, RAID configurations?
+4. Any experience with Docker?
+5. network connectivity that you can utilize in an authorized environment for, you know, communication between, different containers?
+6. Have you, created your own images for containers?What application was it?
+7. what were the security considerations that you have, taken?
+8. what's the difference between a stateful set and Daemon sets?
+9. where or why you used Statefull set. How does it help? 
+10. While creating a manifest file Mhmm. What are the 4 major, you know, points or things that you have to add in that manifest file.
+11. how was the Jenkins environment that you're using? What considerations have you done while you're doing that?
+12. What is, the default home directory for Jenkins for a master and for a slave?
+13. Were you using the root user to run the agent part of Jenkins in the slave servers?
+14. Have you worked on setting up, like, additional storage for your worker nodes in Kubernetes?
+15. What have you done on the, Prometheus Grafana part?
+16. How Kuber how Prometheus and Grafana or, like, how the logs or the monitoring would have been done in a Kubernetes cluster and how things were set up
+17. what does it require that so that Prometheus gets this details?
+18. Coming to, the Terraform, what was your role on that?
+19. What modules have you worked on?
+20. why was it required to create a custom module
+21. What is git squash?
+22. What is Gitstash? why is it used?
+23. What are the different types of, disks that is available in, AWS?
+24. How would you, like, ascertain, instance type when you have to deploy 1? What parameters would you, you know, take into consideration?
+25. What tools have you used to backup?
+26. Have you used s3?What was the purpose for? and classes?
+27. what other AWS services have you used?
+28. Have you used load balancing based on route 53?
+
+```
+
+## set - 25
+
+```
+
+1. what are your roles and responsibilities?
+2. How do you integrate ansible to deploy your application.
+3. How where do you store statefile and write script for backend dynamodb and S3 ?
+4. I have created 5 instance with terraform, manually deleted two resources . How many resources will terraform create once we apply terraform?
+5. We have created a terraform resources file to create 50 resources but due to some issues it failed to create all resources. What happens when we reapply ? Will it create additional resources or will it recreate from the start?
+6. What is taint in terraform?
+7. How can you bring existing resources to manage with terraform?
+8. How do you run an application while recreating instance.
+9. How can you check the application status creating along with terraform?
+8. Write a Jenkins pipeline used in your current project.
+9. How do you secure jenkins ?
+10. Write a shell script to find an error pattern in a file and send an email?
+11. Write a script to delete last 7 days old and more than 100 mb files.
+12. Write script to schedule a job to run backup file?
+13. Write a script to get back to save with time stamp?
+12. Write a script to check if the nginx service is working or not.
+13. How do you trouble shoot applications running.
+14. What is image pull back error and how do you trouble shoot in k8s
+15. How is the application high available in eks ?
+16. Where to you deploy the load balancer front end, back end?
+17. On which layer SSL/TLS certificates are attached.
+18. What is the architecture of the current project in eks ?
+19. How do you connect to private subnet instances?
+20. How do you configure an EC2 connect S3 bucket?
+21. What happens when you don't provide variables in terraform files? How will it take variables?
+22. How do you override existing environment variables in terraform?
+23. How do you deploy an application in EC2 Instance without jenkins.
+24. Explain how you configure ansible to deploy an application with jenkins?
+
+```
+## set - 26
+
+```
+When I started learning Kubernetes, I was overwhelmed by the vast ecosystem. After helping several teams adopt Kubernetes, I've created this 2-month learning path 
+
+𝗜𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻 (𝗪𝗲𝗲𝗸 𝟭)
+- Overview of Kubernetes architecture
+- Why choose Kubernetes?
+- Key concepts and terminologies
+- Container fundamentals
+- Understanding Kubernetes alternatives
+
+𝗦𝗲𝘁𝘁𝗶𝗻𝗴 𝘂𝗽 𝗞𝘂𝗯𝗲𝗿𝗻𝗲𝘁𝗲𝘀 (𝗪𝗲𝗲𝗸 𝟮)
+- Deploying your first application
+- Choosing between managed providers (EKS, GKE, AKS)
+- Installing a local cluster (Minikube/Kind)
+- Basic cluster operations
+
+𝗥𝘂𝗻𝗻𝗶𝗻𝗴 𝗔𝗽𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻𝘀 (𝗪𝗲𝗲𝗸 𝟯-𝟰)
+- Working with Pods
+- Understanding ReplicaSets
+- Managing Deployments
+- Implementing StatefulSets
+- Creating Jobs and CronJobs
+
+𝗦𝗲𝗿𝘃𝗶𝗰𝗲𝘀 𝗮𝗻𝗱 𝗡𝗲𝘁𝘄𝗼𝗿𝗸𝗶𝗻𝗴 (𝗪𝗲𝗲𝗸 𝟱)
+- External access to services
+- Load balancing fundamentals
+- Pod-to-Pod communication
+- Network policies and security
+
+𝗖𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝘁𝗶𝗼𝗻 𝗮𝗻𝗱 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 (𝗪𝗲𝗲𝗸 𝟲)
+- Injecting Pod configurations with ConfigMaps
+- Managing secrets for sensitive data
+- Setting resource requests and limits
+- Assigning quotas to namespaces
+- Monitoring resource usage
+
+𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆 𝗮𝗻𝗱 𝗠𝗼𝗻𝗶𝘁𝗼𝗿𝗶𝗻𝗴 (𝗪𝗲𝗲𝗸 𝟳)
+- Role-based access control (RBAC)
+- Network security implementation
+- Container and Pod security
+- Security scanners and best practices
+- Setting up monitoring and logging
+- Implementing observability
+- Resource health tracking
+
+𝗔𝗱𝘃𝗮𝗻𝗰𝗲𝗱 𝗢𝗽𝗲𝗿𝗮𝘁𝗶𝗼𝗻𝘀 (𝗪𝗲𝗲𝗸 𝟴)
+- Implementing autoscaling
+ - Horizontal Pod Autoscaler (HPA)
+ - Vertical Pod Autoscaler (VPA)
+ - Cluster Autoscaling
+- Storage and Volumes
+ - CSI Drivers
+ - Stateful Applications
+- Deployment Patterns
+ - CI/CD Integration
+ - GitOps practices
+ - Working with Helm Charts
+ - Implementing Canary Deployments
+ - Blue-Green Deployment strategies
+ - Managing Rolling Updates/Rollbacks
+
+𝗪𝗲𝗲𝗸𝗲𝗻𝗱 𝗣𝗿𝗮𝗰𝘁𝗶𝗰𝗲 𝗣𝗿𝗼𝗷𝗲𝗰𝘁𝘀:
+1. Week 2: Deploy a multi-container web application
+2. Week 4: Implement service mesh and monitoring
+3. Week 6: Set up automated CI/CD pipeline
+4. Week 8: Deploy a production-ready microservices application
+
+
+```
