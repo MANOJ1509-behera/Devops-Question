@@ -36,3 +36,29 @@
 
 17. How have you managed and troubleshooted issues in production environments using Kubernetes? Include techniques for diagnosing and resolving performance or availability issues❓
 ```
+
+## set - 2
+
+```
+1. In a cluster with two nodes, one with pods and the other without, which node will a new pod be scheduled to?
+
+2. If an application running in a container encounters an OOM (Out-of-Memory) error, will the container restart, or will the entire Pod be recreated?
+
+3. Can application configurations such as environment variables or ConfigMap updates be applied dynamically without recreating the Pod?
+
+4. Is a Pod stable once created, even if the user takes no further action?
+
+5. Can a Service of type ClusterIP ensure load balancing for TCP traffic?
+
+6. How should application logs be collected, and is there a risk of losing logs?
+
+7. If an HTTP Server Pod’s liveness probe is functioning correctly, does it mean the application is problem-free?
+
+8. How can an application scale to handle traffic fluctuations?
+
+9. When you execute 𝘬𝘶𝘣𝘦𝘤𝘵𝘭 𝘦𝘹𝘦𝘤 -𝘪𝘵 <𝘱𝘰𝘥> -- 𝘣𝘢𝘴𝘩, are you logging into the pod?
+
+10. How would you troubleshoot if a container in a Pod repeatedly exits and restarts?
+
+
+```
