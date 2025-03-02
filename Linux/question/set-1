@@ -42,6 +42,45 @@ Commands: nslookup, dig, cat /etc/resolv.conf, systemctl restart network
 
 Explanation: Use nslookup and dig to check DNS resolution. Verify /etc/resolv.conf for correct nameservers. Restart networking if necessary.
 
+7. A critical Linux process died out of no where!
+Has this ever happened to you?
+
+As a DevOps engineer, I've dealt with this exact scenario in test/production environments. 
+
+When it happens, you need to diagnose and resolve the issue ASAP. 
+
+Here's how I investigate these issues:
+
+✅Step 1: Check if the process is still running
+-> ps aux | grep process_name to see if it crashed
+-> pgrep -fl process_name to double-check if it's in memory
+-> dmesg -T | tail -50 to look for segfaults or OOM kills
+
+✅Step 2: Scan system logs for clues
+-> journalctl -xe --no-pager -n 50 for errors before the process stopped
+-> tail -f /var/log/syslog for warnings or crash messages
+
+✅Step 3: Analyze CPU & memory usage
+-> top -o %CPU to check for high CPU consumption
+-> top -o %MEM to see if it hit memory limits
+-> dmesg | grep -i "oom" to determine if the OOM Killer terminated it
+
+✅ Step 4: Investigate disk issues
+-> df -h to check if the disk is full and preventing writes
+-> iostat -xm 1 to look for disk I/O bottlenecks that could've frozen the process
+-> dmesg | grep -i "error" to find any file system errors
+
+✅Step 5: Look for locked or deleted files
+-> lsof -p <PID> to see if the process is stuck on a locked file
+-> lsof | grep -iE "deleted|locked" to detect lingering file issues
+
+✅Step 6: Determine if an external source killed the process
+-> journalctl -u process_name --no-pager -n 50 to check for manual kills
+-> lastcomm | grep process_name to find out who/what sent the kill signal
+
+✅Step 7: Debug in real-time
+-> strace -p <PID> to see what syscalls the process is making
+-> gdb -p <PID> to attach and inspect the process state
 
 
 ```
