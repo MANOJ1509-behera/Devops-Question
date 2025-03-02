@@ -460,3 +460,84 @@ Set up a load testing pipeline to simulate real-world peak traffic conditions in
 
 
 ```
+## set-11
+
+```
+
+### **1. Core DevOps Concepts**
+- **What is CI/CD, and how do you implement it in a real-world scenario?**
+- **Explain the difference between Infrastructure as Code (IaC) and Configuration Management. Can you name tools for each?**
+- **How do you handle rollbacks in a deployment pipeline?**
+
+---
+
+### **2. Cloud-Native and Kubernetes**
+- **How do you manage multi-cluster Kubernetes environments?**
+- **What are the key challenges of running stateful applications on Kubernetes, and how do you address them?**
+- **Can you explain the role of a service mesh in a microservices architecture?**
+
+---
+
+### **3. Security in DevOps (DevSecOps)**
+- **How do you integrate security into a CI/CD pipeline?**
+- **What tools do you use for vulnerability scanning and compliance checks?**
+- **Explain the concept of "shift-left security" and how you’ve implemented it.**
+
+---
+
+### **4. Automation and Scripting**
+- **Write a script to automate the deployment of a containerized application to a Kubernetes cluster.**
+- **How do you automate infrastructure provisioning using Terraform or Pulumi?**
+- **What’s your approach to automating monitoring and alerting?**
+
+---
+
+### **5. Observability and Monitoring**
+- **What metrics do you monitor to ensure the health of a production system?**
+- **How do you implement distributed tracing in a microservices architecture?**
+- **What’s the difference between logging, monitoring, and observability?**
+
+---
+
+### **6. Problem-Solving and Troubleshooting**
+- **A production deployment has failed. Walk me through your troubleshooting process.**
+- **How do you handle a situation where a critical vulnerability is discovered in a live application?**
+- **What steps would you take to optimize a slow CI/CD pipeline?**
+
+---
+
+### **7. Collaboration and Culture**
+- **How do you ensure effective collaboration between development, operations, and security teams?**
+- **Describe a time when you had to resolve a conflict between teams during a deployment.**
+- **How do you stay updated with the latest DevOps trends and tools?**
+
+---
+
+### **8. Future-Readiness**
+- **How do you see AI and machine learning impacting DevOps in the next 2-3 years?**
+- **What’s your take on Green DevOps, and how would you implement sustainable practices?**
+- **How do you approach learning new tools and technologies in a fast-evolving field like DevOps?**
+
+````
+
+## set -12
+
+```
+1. Can you write a real time python automation code.
+2. Explain Jenkins Master/Slave architecture
+3. What is liveness probe and readiness probe
+4. What are the parameters needed to deploy an application into Kubernetes using pipeline.
+5. What is State file in terraform and explain the lock process.
+6. where you store the sensitive information
+7. What is the issue you are facing at the time of building an image.
+8. How to stop direct commits to GitHub.
+9. Kubernetes YAML files.
+10. What is Tag in Git.
+11. where do you deploy an application in Kubernetes.
+12. How to set the build is scheduled to particular node in Jenkins. 
+13. What is the real time issue you are facing when building a java package using maven.
+14. Where you used python and shell scripting
+15. How many builds are stored in a pipeline project of Jenkins.
+
+
+```
