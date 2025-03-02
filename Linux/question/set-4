@@ -1,0 +1,41 @@
+```
+ Basic Level (Beginner)
+
+✅ What is Linux, and how is it different from Windows?
+✅ How do you check your Linux version?
+✅ What command lists files and directories?
+✅ How do you create, rename, and delete files?
+✅ What is chmod, and how do file permissions work?
+✅ What is a shell? Name some commonly used shells.
+✅ How do you check system uptime?
+✅ How do you find a file in Linux?
+✅ What is grep, and how do you use it?
+✅ How do you create a user in Linux?
+
+🟢 Intermediate Level (Practitioner)
+
+⚡ What is cron, and how do you schedule tasks?
+⚡ How do you manage processes using top, kill, and nice?
+⚡ What is the Linux boot process?
+⚡ How do you troubleshoot a slow Linux system?
+⚡ What is systemd, and how does it differ from init?
+⚡ How do you mount a filesystem in Linux?
+⚡ How do you check disk and memory usage?
+⚡ How do you analyze logs using journalctl?
+⚡ What is swap space, and how do you configure it?
+⚡ How do you check open ports in Linux?
+
+🔥 Proficient Level (Expert)
+
+🚀 How does Logical Volume Management (LVM) work?
+🚀 How do you analyze system performance using iostat, vmstat, and sar?
+🚀 How do you debug high CPU usage in Linux?
+🚀 What is tcpdump, and how do you use it for network troubleshooting?
+🚀 How does Linux handle memory management?
+🚀 How do you troubleshoot a corrupted filesystem?
+🚀 What are Linux namespaces and cgroups?
+🚀 How do you configure and secure SSH access?
+🚀 How do you implement load balancing in Linux?
+🚀 What are kernel modules, and how do you manage them?
+
+```
