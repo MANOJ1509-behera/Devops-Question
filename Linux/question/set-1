@@ -83,4 +83,76 @@ Here's how I investigate these issues:
 -> gdb -p <PID> to attach and inspect the process state
 
 
+
+
+11. Scenario: Slow System Performance
+Users report the system is running slow. How do you diagnose the issue?
+Check CPU and memory usage: top or htop
+Identify disk bottlenecks: iostat -x 1 or iotop
+Check running processes: ps aux --sort=-%mem | head
+Monitor system load: uptime
+
+12. Scenario: NFS Mount Not Working
+A user cannot access an NFS-mounted directory. How do you troubleshoot?
+Check NFS status: systemctl status nfs-server
+Verify exports: exportfs -v
+Test mount: showmount -e <server-ip>
+Restart NFS service: systemctl restart nfs-server
+
+13. Scenario: Corrupted Filesystem
+A filesystem is showing errors. How do you repair it?
+Check filesystem: fsck -y /dev/sdX (unmount first)
+Remount the partition: mount -a
+Monitor logs: dmesg | tail -20
+
+14. Scenario: User Locked Out After Failed Login Attempts
+A user is locked out after too many failed login attempts. How do you unlock them?
+Check login failures: faillog -u <username>
+Reset failed attempts: faillog -r -u <username>
+If using pam_tally2: pam_tally2 --user <username> --reset
+
+15. Scenario: Adding a New Disk to LVM
+You added a new disk and need to extend an LVM volume. What steps do you take?
+Identify the new disk: lsblk
+Create a physical volume: pvcreate /dev/sdX
+Extend the volume group: vgextend <vg_name> /dev/sdX
+Extend the logical volume: lvextend -l +100%FREE /dev/<vg_name>/<lv_name>
+Resize filesystem: resize2fs /dev/<vg_name>/<lv_name>
+
+16. Scenario: Permission Denied on a Shared Directory
+A user cannot write to a shared directory despite having write permissions. What could be the issue?
+Check ownership: ls -ld /shared_dir
+Verify group permissions: chmod g+w /shared_dir
+Ensure the user is in the group: usermod -aG <group> <username>
+If using ACLs, check with: getfacl /shared_dir
+
+17. Scenario: Kernel Module Not Loading
+You need to load a kernel module, but it fails. How do you fix it?
+Check if the module exists: lsmod | grep <module>
+Load it manually: modprobe <module>
+If missing, install kernel-devel: dnf install kernel-devel
+Enable it at boot: echo "<module>" >> /etc/modules-load.d/custom.conf
+
+18. Scenario: Process Running on a Specific Port
+How do you find which process is using port 8080?
+netstat -tulnp | grep 8080
+ss -tulnp | grep 8080
+lsof -i :8080
+
+19. Scenario: Configuring Automatic System Updates
+How do you configure automatic security updates in RHEL 9?
+Install dnf-automatic: dnf install dnf-automatic
+Enable automatic updates: systemctl enable --now dnf-automatic.timer
+Edit config: /etc/dnf/automatic.conf (apply_updates = yes)
+
+20. Scenario: SSH Brute-Force Attacks
+How do you protect an RHEL 9 server from SSH brute-force attacks?
+Use fail2ban:
+Install: dnf install fail2ban
+Enable: systemctl enable --now fail2ban
+Change SSH port: Edit /etc/ssh/sshd_config → Port 2222
+Disable root login: PermitRootLogin no
+Use key-based authentication instead of passwords
+
+
 ```
