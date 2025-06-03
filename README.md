@@ -1027,6 +1027,36 @@ Set up a load testing pipeline to simulate real-world peak traffic conditions in
 
 
 ```
+## Set- 27
+
+```
+
+🔹 Can you explain the different types of 𝗹𝗼𝗮𝗱 𝗯𝗮𝗹𝗮𝗻𝗰𝗲𝗿𝘀?
+🔹 What are the various 𝗢𝗦𝗜 𝗹𝗮𝘆𝗲𝗿𝘀, and how do they 𝗳𝘂𝗻𝗰𝘁𝗶𝗼𝗻?
+🔹 Between the 𝗢𝗦𝗜 and 𝗧𝗖𝗣/𝗜𝗣 𝗺𝗼𝗱𝗲𝗹𝘀, which one is 𝗯𝗲𝘁𝘁𝗲𝗿 𝘁𝗼 𝗶𝗺𝗽𝗹𝗲𝗺𝗲𝗻𝘁 and why?
+🔹 How do you i𝗻𝘀𝘁𝗮𝗹𝗹 𝗚𝗿𝗮𝗳𝗮𝗻𝗮 and 𝗰𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗲 it to display logs and metrics?
+🔹 Given two front-end services and 15 back-end services in a 𝗚𝗶𝘁𝗟𝗮𝗯 𝗿𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆, how would you deploy them in 𝗞𝘂𝗯𝗲𝗿𝗻𝗲𝘁𝗲𝘀?
+🔹 What is the key difference between 𝗛𝗼𝗿𝗶𝘇𝗼𝗻𝘁𝗮𝗹 𝗦𝗰𝗮𝗹𝗶𝗻𝗴 𝗮𝗻𝗱 𝗩𝗲𝗿𝘁𝗶𝗰𝗮𝗹 Scaling?
+🔹 What exactly is the 𝗧𝗖𝗣/𝗜𝗣 𝗺𝗼𝗱𝗲𝗹?
+🔹 What is a 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗘𝗻𝗱𝗽𝗼𝗶𝗻𝘁 𝗚𝗿𝗼𝘂𝗽?
+🔹 How would you set a password for a user on a 𝗖𝗼𝗺𝗽𝘂𝘁𝗲 𝗘𝗻𝗴𝗶𝗻𝗲 𝗶𝗻𝘀𝘁𝗮𝗻𝗰𝗲?
+🔹 What is the purpose of a 𝘀𝗵𝗲𝗯𝗮𝗻𝗴 𝗶𝗻 𝗮 𝘀𝗰𝗿𝗶𝗽𝘁?
+🔹 What are the different types of services in 𝗞𝘂𝗯𝗲𝗿𝗻𝗲𝘁𝗲𝘀?
+🔹 Can you define a 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗚𝗮𝘁𝗲𝘄𝗮𝘆?
+🔹 What is 𝗖𝗜𝗗𝗥, and why is it used?
+🔹 How many bytes are there in 𝗜𝗣𝘃𝟲 𝗮𝗻𝗱 𝗜𝗣𝘃𝟰?
+🔹 What differentiates a 𝗹𝗼𝗴𝗶𝗰𝗮𝗹 𝗮𝗱𝗱𝗿𝗲𝘀𝘀 from a physical address?
+🔹 How do a 𝗠𝗔𝗖 𝗮𝗱𝗱𝗿𝗲𝘀𝘀 and an IP address differ in function?
+🔹 What is the use of the 𝘁𝗲𝗿𝗿𝗮𝗳𝗼𝗿𝗺 𝗴𝗿𝗮𝗽𝗵 command?
+🔹 What is a null resource in 𝗧𝗲𝗿𝗿𝗮𝗳𝗼𝗿𝗺?
+🔹 How does a 𝗧𝗲𝗿𝗿𝗮𝗳𝗼𝗿𝗺 module differ from a template?
+🔹 How can a 𝗽𝗶𝗽𝗲𝗹𝗶𝗻𝗲 be configured to run manually?
+🔹 How would you write a 𝗗𝗼𝗰𝗸𝗲𝗿𝗳𝗶𝗹𝗲 to build a 𝗡𝗼𝗱𝗲.𝗷𝘀 project?
+🔹 Why is it beneficial to copy 𝗽𝗮𝗰𝗸𝗮𝗴𝗲.𝗷𝘀𝗼𝗻 before other files in a Dockerfile?
+🔹 What is the difference between package.json and 𝗽𝗮𝗰𝗸𝗮𝗴𝗲-𝗹𝗼𝗰𝗸.𝗷𝘀𝗼𝗻 in 𝗡𝗼𝗱𝗲.𝗷𝘀?
+
+
+```
 
 ## Kube
 
