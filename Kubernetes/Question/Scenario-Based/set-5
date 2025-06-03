@@ -1,0 +1,32 @@
+10 Tough Kubernetes Scenarios That Can Catch You Off Guard! 
+👨‍💻 Can you troubleshoot these real-world Kubernetes issues? Many engineers struggle with these tricky scenarios—let’s see how you do!
+1️⃣ Pods Restarting, But No Errors in Logs?
+Your pods keep restarting, but liveness & readiness probes pass. CPU & memory look fine. What’s your next step?
+💡 Hint: Check kubectl describe node for hidden OOMKills at the node level.
+2️⃣ Service is Running, But Can’t Be Accessed Externally?
+Your Kubernetes service is deployed, but external users can’t access it. What could be wrong?
+💡 Hint: Is your service ClusterIP instead of LoadBalancer or NodePort? Check kubectl get svc.
+3️⃣ Why is My Pod Stuck in Terminating?
+You deleted a pod, but it’s been stuck in "Terminating" for 30+ minutes. How do you fix it?
+💡 Hint: Check for finalizers with kubectl get pod -o yaml or use kubectl delete pod --force --grace-period=0.
+4️⃣ Kubernetes Deployment Rollback Fails – What Now?
+You tried rolling back a bad deployment, but it fails to revert to the previous state. Why?
+💡 Hint: If kubectl rollout undo doesn’t work, check if the previous ReplicaSet was scaled to 0 or deleted.
+5️⃣ One Node is Unreachable – But Only Some Pods Fail?
+A Kubernetes node becomes unreachable, yet not all pods fail. Why?
+💡 Hint: Check if the affected pods have node affinity, anti-affinity, or pod disruption budgets (PDBs) in place.
+6️⃣ Why is My Kubernetes Job Stuck in Active State?
+You ran a Kubernetes Job, but it’s stuck in an Active state forever. What’s wrong?
+💡 Hint: Look at backoffLimit – Jobs with repeated failures can keep retrying indefinitely.
+7️⃣ Ingress Not Routing Traffic to Pods?
+Your Ingress is configured, but requests never reach your pods. What could be the issue?
+💡 Hint: Is the Ingress Controller deployed? Also, check for missing host rules or path mismatches.
+8️⃣ Kubernetes Autoscaler Doesn’t Scale Up?
+You set up HPA (Horizontal Pod Autoscaler), but your pods aren’t scaling under high traffic. Why?
+💡 Hint: Check if the target metrics (CPU/Memory) are correctly defined and if limits are too restrictive.
+9️⃣ Kubernetes Persistent Volume Not Mounting?
+Your pod is stuck in ContainerCreating because the Persistent Volume isn’t attaching. What’s wrong?
+💡 Hint: Check if the PV and PVC match the correct StorageClass and access mode.
+🔟 Why Did My Pod Disappear Without Logs?
+A pod was running fine but suddenly disappeared—no logs, no errors. What happened?
+💡 Hint: Check if it was Evicted due to node pressure or if a cronjob/controller deleted it automatically.
