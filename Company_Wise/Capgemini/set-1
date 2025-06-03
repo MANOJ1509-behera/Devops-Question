@@ -1,0 +1,30 @@
+Here’s the freshly updated set of questions asked in Round 2:
+🚀 Azure Services & Cloud Architecture
+ ✅ How do you use Azure Application Gateway for traffic routing between microservices?
+ ✅ What is the difference between Azure Load Balancer and Azure Traffic Manager?
+ ✅ How would you configure Azure Monitor to track resource health across subscriptions?
+ ✅ Explain the use of Azure Blueprints in large-scale governance.
+
+🚀 Kubernetes & Production Reliability (AKS)
+ ✅ How do you manage config changes across multiple environments in Kubernetes?
+ ✅ What’s the role of PodDisruptionBudget and how does it help during node upgrades?
+ ✅ How do you configure network policies to isolate team environments in AKS?
+ ✅ What would you do if kubectl get pods shows ImagePullBackOff on a critical pod?
+
+🚀 CI/CD Best Practices
+ ✅ How would you implement a multi-stage pipeline in Azure DevOps for microservices?
+ ✅ How do you detect and act on drift in your infrastructure using CI/CD?
+ ✅ How do you secure service connections and agent pools in Azure Pipelines?
+ ✅ How do you handle versioning and rollback strategies for Helm chart-based deployments?
+
+🚀 Infrastructure as Code (Terraform & Bicep)
+ ✅ What are the trade-offs between using Terraform vs. Bicep on Azure?
+ ✅ How do you build reusable Terraform modules and structure them in monorepos?
+ ✅ How do you store Terraform state securely and manage remote locking in Azure?
+ ✅ What’s your strategy for tagging, labeling, and cost-management through IAC?
+
+🚀 SRE, Monitoring & Troubleshooting
+ ✅ How do you troubleshoot intermittent 502 errors in an AKS-hosted service?
+ ✅ How do you integrate Azure Log Analytics with Prometheus/Grafana for AKS?
+ ✅ How do you detect and remediate memory leaks in containerized apps?
+ ✅ Explain how you’d run a chaos test to validate resilience in your deployment.
