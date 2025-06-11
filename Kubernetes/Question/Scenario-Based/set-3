@@ -44,3 +44,85 @@ How would you ensure RBAC policies, network policies, and secure communication b
 12. Your application increase traffic during peak how to set up autoscaling to recase cluster worker node 
 
 ```
+
+```
+✅ 1) What happens if your Kubernetes resource definition is accidentally deleted?
+👉Answer: Kubernetes loses track of the resource. On next deployment, it attempts to recreate everything, causing duplicates or failures. Recovery may require manual intervention or restoring from backups. Always use GitOps for version control.
+
+✅ 2) How do you handle large-scale refactoring without downtime?
+👉Answer: Use rolling updates and canary deployments to minimize impact. Split changes into smaller PRs and verify configurations carefully to prevent service disruption.
+
+✅ 3) What happens if a pod fails halfway through an update?
+👉Answer: Kubernetes maintains the desired state. Failed pods are marked as unhealthy, and the system will attempt to restart them. Use readiness probes to ensure only healthy pods receive traffic.
+
+✅ 4) How do you manage secrets in Kubernetes?
+👉Answer: Use Kubernetes Secrets or integrate with external secret management systems (like HashiCorp Vault). Ensure secrets are encrypted at rest and in transit, and follow best practices for RBAC.
+
+✅ 5) What happens if kubectl apply shows no changes but the cluster was modified outside Kubernetes?
+👉Answer: Kubernetes remains unaware until a reconciliation occurs. Regularly implement drift detection to catch unauthorized changes.
+
+✅ 6) What happens if you delete a resource definition from your configuration?
+👉Answer: Kubernetes destroys the corresponding resources. Use "kubectl delete" cautiously or apply resource protection annotations for critical components.
+
+✅ 7) What happens if a Kubernetes API version changes between releases?
+👉Answer: Compatibility issues may arise. Always read release notes, use version constraints, and test upgrades in non-production environments to identify breaking changes.
+
+✅ 8) How do you implement zero-downtime updates in Kubernetes?
+👉Answer: Leverage rolling updates, blue-green deployments, and health checks to ensure smooth transitions. For databases, consider using StatefulSets with proper failover strategies.
+
+✅ 9) What happens if you have circular dependencies in your Kubernetes manifests?
+👉Answer: Kubernetes will encounter deployment issues. Refactor configurations to establish clear dependencies, possibly using Helm charts to manage complex relationships.
+
+✅ 10) What happens if you rename a resource in your Kubernetes configuration?
+👉Answer: Kubernetes treats this as a deletion and recreation. Use annotations or update strategies to manage changes while preserving the resource state and minimizing downtime.
+
+```
+
+```
+1. If a container restarts repeatedly after being run, how would you identify the root cause without modifying the Dockerfile?
+
+2. What’s the difference between the COPY and ADD commands in a 
+Dockerfile, and when should you prefer one over the other?
+
+3. Can environment variables defined in a Dockerfile be overridden at runtime? How would you do it?
+
+4. If your Docker container needs to connect to a private network (e.g., another database container), how would you configure that in Docker Compose?
+
+5. What happens when you bind mount a host directory into a container where the directory already exists with data? Will the container’s files persist?
+
+6. How can you ensure a container runs as a non-root user and still has the necessary permissions to access volumes and perform tasks?
+
+7. Can you explain what happens internally when you run docker run hello-world? What components are involved?
+
+8. If you remove a Docker image that was used to create a running container, what happens to the container?
+
+9. What’s the difference between ENTRYPOINT and CMD in a Dockerfile, and how do they behave when you override them at runtime?
+
+10. You want to reduce the image size of a Python application container that currently uses the python:3.11 base image. What steps would you take to optimize the image?
+
+```
+
+```
+1. In a cluster with two nodes, one with pods and the other without, which node will a new pod be scheduled to?
+
+2. If an application running in a container encounters an OOM (Out-of-Memory) error, will the container restart, or will the entire Pod be recreated?
+
+3. Can application configurations such as environment variables or ConfigMap updates be applied dynamically without recreating the Pod?
+
+4. Is a Pod stable once created, even if the user takes no further action?
+
+5. Can a Service of type ClusterIP ensure load balancing for TCP traffic?
+
+6. How should application logs be collected, and is there a risk of losing logs?
+
+7. If an HTTP Server Pod’s livenessProbe is functioning correctly, does it mean the application is problem-free?
+
+8. How can an application scale to handle traffic fluctuations?
+
+9. When you execute kubectl exec -it <pod> -- bash, are you logging into the pod?
+
+10. How would you troubleshoot if a container in a Pod repeatedly exits and restarts?
+
+
+
+```
