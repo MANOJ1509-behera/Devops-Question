@@ -20,3 +20,38 @@ What Kubernetes features or external tools can assist in log management?
 8. Your cluster uses a mix of third-party and custom container images. How would you ensure that only secure and compliant images are used in the cluster? What tools (e.g., image scanners, policies) can assist with this process?
 
 ```
+
+```
+1. In a cluster with two nodes, one with pods and the other without, which node will a new pod be scheduled to?
+ The Kubernetes scheduler evaluates resource availability before deciding. If both nodes can handle the new pod, it may be assigned to either, balancing the load.
+
+2. If an application running in a container encounters an OOM (Out-of-Memory) error, will the container restart, or will the entire Pod be recreated?
+ Only the container is restarted, not the entire Pod, based on the restartPolicy, which defaults to Always.
+
+3. Can application configurations such as environment variables or ConfigMap updates be applied dynamically without recreating the Pod?
+ Environment variables require a Pod restart. However, ConfigMap updates are reflected instantly if mounted as a volume.
+
+4. Is a Pod stable once created, even if the user takes no further action?
+ No, Pods are ephemeral. They can be terminated or rescheduled due to node failures or health issues.
+
+5. Can a Service of type ClusterIP ensure load balancing for TCP traffic?
+ Yes, ClusterIP Services provide internal load balancing for TCP traffic across Pod replicas.
+
+6. How should application logs be collected, and is there a risk of losing logs?
+ Logs should be collected with tools like Fluentd or Prometheus. Without centralized storage, logs are lost if the container crashes.
+
+7. If an HTTP Server Pod’s livenessProbe is functioning correctly, does it mean the application is problem-free?
+ Not necessarily. A healthy livenessProbe only checks if the container is running—not the application’s health.
+
+8. How can an application scale to handle traffic fluctuations?
+ Kubernetes supports Horizontal Pod Autoscaling (HPA) to scale Pods based on metrics like CPU or custom metrics.
+
+9. When you execute kubectl exec -it <pod> -- bash, are you logging into the pod?
+ Yes, you access a container inside the Pod, enabling you to troubleshoot and debug live.
+
+10. How would you troubleshoot if a container in a Pod repeatedly exits and restarts?
+
+
+
+
+```
