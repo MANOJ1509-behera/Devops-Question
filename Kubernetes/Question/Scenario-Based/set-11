@@ -1,0 +1,20 @@
+🔥 1. It’s 2AM. Users report the app is slow. No errors. No logs.
+→ What’s your first move? Where do you start?
+
+🔥 2. Half your pods are in CrashLoopBackOff. Team says “works on my machine.”
+→ You’re on-call. What do you do — live?
+
+🔥 3. Dev team pushed a bad Helm chart and the rollback hook fails.
+→ What’s your live rollback strategy?
+
+🔥 4. You suddenly see a 5x spike in cloud billing. Infra looks fine.
+→ Where do you look first? How do you trace the bleed?
+
+🔥 5. A service account leaked in a public image.
+→ How fast can you isolate and rotate it? How do you prevent recurrence?
+
+🔥 6. Your cluster-wide DNS stops resolving randomly across nodes.
+→ What’s your step-by-step debug path?
+
+🔥 7. You’re paged for 503 errors. All pods are healthy.
+→ Where do you dig next? Metrics? Probes? Ingress?
