@@ -1,0 +1,29 @@
+🔺 How do you prevent accidental resource deletion?
+ ✅ Answer: Use lifecycle { prevent_destroy = true } for critical resources and implement strict access controls. Always run terraform plan before applying and carefully review planned deletions.
+
+🔺 How do you handle provider API rate limiting?
+ ✅ Answer: Implement exponential backoff in provider configurations and use time_sleep resources between operations. Split large deployments into smaller batches to reduce concurrent API calls.
+
+🔺 What happens when recovering from a corrupted state file?
+ ✅ Answer: Restore from backup or use terraform import to bring existing resources back under management. Always enable versioning on remote state storage to prevent data loss.
+
+🔺 How do you migrate from one backend to another?
+ ✅ Answer: Run terraform state pull to save current state, update backend configuration, then terraform init -migrate-state. Always perform this during maintenance windows with proper backups.
+
+🔺 How do you handle state drift in production environments?
+ ✅ Answer: Regularly run terraform plan in CI/CD pipelines to detect differences and use terraform import to reconcile. Set up automated drift detection with alerts for unauthorized changes.
+
+🔺 How do you manage secrets securely in Terraform?
+ ✅ Answer: Store sensitive values in external systems like HashiCorp Vault or AWS Secrets Manager. Use sensitive = true attribute and ensure remote state is encrypted at rest.
+
+🔺 How do you implement zero-downtime infrastructure updates?
+ ✅ Answer: Use create_before_destroy lifecycle blocks and implement blue-green deployments with gradual traffic shifting. Verify health of new resources before decommissioning old ones.
+
+🔺 How do you properly structure Terraform modules for enterprise use?
+ ✅ Answer: Create reusable modules with clear interfaces and version constraints. Implement proper dependency management between stacks using remote state data sources.
+
+🔺 How do you handle large-scale refactoring without disruption?
+ ✅ Answer: Use state manipulation commands like terraform state mv and execute targeted applies. Split refactoring into multiple non-destructive PRs with comprehensive testing.
+
+🔺 How do you implement effective Terraform testing strategies?
+ ✅ Answer: Combine static analysis (tflint, checkov) with unit testing (Terratest) and compliance verification. Create ephemeral test environments with proper cleanup procedures.
