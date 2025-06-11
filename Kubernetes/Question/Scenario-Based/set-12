@@ -1,0 +1,20 @@
+🔥 1. Your pod is in CrashLoopBackOff. There’s no useful log output. What next?
+→ Walk me through real-time troubleshooting.
+
+🔥 2. You deployed a new version. Latency spiked. No errors. What now?
+→ Show me how you trace and triage blind spots.
+
+🔥 3. You’re paged at 2AM: 503s on the main app, but infra looks fine.
+→ How do you debug this without guessing?
+
+🔥 4. Your cost just spiked 3x in 24 hours — you weren’t told about any infra change.
+→ Show your cloud cost observability flow.
+
+🔥 5. A secret was leaked in a public container image.
+→ What’s your RCA? And how do you prevent it next time?
+
+🔥 6. The entire dev team lost access to the cluster. Prod is unaffected.
+→ What’s the fastest way to regain access without root panic?
+
+🔥 7. A rollout failed, your app is now unstable — Helm hooks block rollback.
+→ Fix the mess live. What’s your rollback strategy?
