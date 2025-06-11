@@ -28,3 +28,19 @@ What considerations would you make for managing SSL certificates in Kubernetes?
 How would you ensure RBAC policies, network policies, and secure communication between components are implemented?
 
 ```
+
+```
+1. tell me something about your self 
+2. what is kubernetes? Explain its Architecture 
+3. what do you understand by loadbalancer in terms of kubernetes 
+4. what do you understand by namespace in kubernetes?
+5. why should i choose kubernetes as compare to Docker swarm. 
+6. what is operators in kubernetes 
+7. what are diffrence between .war file and .jar file they are interdependent each other 
+8. Tell me a process how to migrate database on eks cluster 
+9. can you explain me the deployment process of docarized app that is stored in git repo 
+10. there is a docker container now this docker container have sonarqube installed init and the the application is up and running everything is going fine.I restarted my docker container now the sonarqube is coming up but not sharing any data what went wrong over here 
+11. how do you integrate EBS volume if we have an pod 
+12. Your application increase traffic during peak how to set up autoscaling to recase cluster worker node 
+
+```
