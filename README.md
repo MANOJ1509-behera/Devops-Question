@@ -1161,6 +1161,28 @@ happens? Will pods keep running or they will crash?
 
 ```
 
+## DAY - 31
+```
+🔹Explain state file in Terraform, where do you store it in your environment
+🔹What are best practices of storing state files
+🔹What are modules in Terraform, write down all the files which exist in your terraform folder when you build .tf files.
+🔹What is difference between variables.tf and .tfvars file
+🔹 How do you manage different environments in terraform configuration like Dev, Staging and Prod
+🔹Difference in Merge and Rebase in Git
+🔹What is the use of git stash command
+🔹Have you worked on DR, what is the difference in RTO and RPO
+🔹What is the use of Hub and Spoke model
+🔹What AWS services have you used.
+If I do not want to use Autoscaling policies to Autoscale EC2, is there any other way like using Cloudwatch etc?
+🔹I have written a TF configuration for an EKS Cluster with a service account resource also created, I know that the EKS resource should be created after the IAM role so that the role can access the cluster, what is the solution to this problem
+🔹Have you encountered a scenario where the IAM role has not propogated completely even though the trust policy and all permissions were properly created?
+🔹When an EKS Cluster is deployed, what files are created and what is the significance of Karpenter in it.
+🔹How do you control specifically which resources are to be destroyed and which ones are to be kept.
+🔹write Terraform code to Deploy an EKS cluster, Helm chart and Datadog agent. Use the agent to setup monitoring.
+🔹How do i control the deployment of a second terraform resource apart from the depends_on feature, and can I time delay its deployment?
+
+
+```
 ## Kube
 
 ```
