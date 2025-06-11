@@ -1,0 +1,16 @@
+💣 1. How do you architect Kubernetes across multi-cloud and multi-region with zero-downtime rollouts?
+
+💣 2. How would you securely rotate secrets across 300+ microservices with GitOps in mind?
+
+💣 3. You need to enforce baseline security across 20 teams without slowing them down.
+→ What’s your policy + enforcement strategy?
+
+💣 4. Design a cost-optimized architecture for a latency-sensitive application on K8s with autoscaling.
+
+💣 5. How would you redesign a cluster that regularly hits kube-apiserver throttling?
+
+💣 6. Explain your HA setup for etcd, control plane, and ingress.
+→ Be specific. No buzzwords.
+
+💣 7. You’re onboarding 50 devs across 7 teams.
+→ How do you manage access, namespaces, resource quotas, and observability from day 1?
