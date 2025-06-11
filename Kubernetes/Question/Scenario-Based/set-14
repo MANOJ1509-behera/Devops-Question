@@ -1,0 +1,20 @@
+🔥 1. How does Kubernetes handle DNS resolution inside a pod, and what would you check if a service is not reachable by name?
+→ I want CoreDNS internals. I want troubleshooting steps. Not “try curl again.”
+
+🔥 2. Explain the full lifecycle of a Deployment rollout—what does the K8s controller manager do under the hood?
+→ I’m checking your understanding of declarative desired state, not just rollout status.
+
+🔥 3. What happens when a cluster autoscaler tries to scale down a node with a pod using local storage?
+→ This is where real SREs shine, and juniors panic.
+
+🔥 4. You deployed an update. Now latency spikes for 30% of users. No CrashLoop. No failed events. What’s your debugging approach?
+→ Logs? Metrics? Network policies? Show me your chaos discipline.
+
+🔥 5. How do you enforce runtime security in K8s?
+→ Seccomp, AppArmor, PSPs, OPA Gatekeeper? Let’s see if you’ve done more than expose port 80.
+
+🔥 6. Describe the difference between Horizontal Pod Autoscaler, Vertical Pod Autoscaler, and Karpenter. When would you NOT use each?
+→ Bonus: How would you simulate HPA in staging without prod traffic?
+
+🔥 7. Explain a real-world outage in Kubernetes you helped debug—what was the RCA and the fix?
+→ If your answer doesn’t include logs, metrics, alerts, and postmortems, you weren’t in the war room.
