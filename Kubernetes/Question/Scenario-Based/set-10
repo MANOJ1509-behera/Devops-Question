@@ -1,0 +1,22 @@
+💡 These are the kinds of Kubernetes questions that expose true operators — not just YAML practitioners:
+
+🔥 1. What happens when your etcd store goes stale or corrupted?
+→ Talk backup strategies, RAFT consistency, and disaster recovery. This isn’t your bootcamp final project.
+
+🔥 2. How would you debug a Pod that’s intermittently unreachable across nodes but passes health checks?
+→ Show me your CNI layer chops. Calico? Cilium? Routing tables? Let’s go.
+
+🔥 3. What’s your strategy for zero-downtime upgrades of Ingress Controllers at scale?
+→ Hint: Rolling updates + traffic shifting + TLS + chaos = test of your soul.
+
+🔥 4. How do you enforce multi-tenant isolation in a shared cluster?
+→ Namespaces are just the start. Let’s talk about RBAC boundaries, NetworkPolicies, and resource quotas that don’t break prod.
+
+🔥 5. What’s your incident response when Karpenter overscales during a sudden traffic spike and cost goes 3x?
+→ HPA saves your app. But cost visibility saves your job.
+
+🔥 6. Walk me through how you’d rotate secrets across hundreds of microservices without downtime.
+→ Let’s see your secret manager + CSI driver + rollout design. Don’t say “we just restart the pods.”
+
+🔥 7. You just recovered from an outage. Now what?
+→ Real engineers talk SLO breaches, RCAs, postmortems, chaos testing. Not “it’s working now, all good.”
